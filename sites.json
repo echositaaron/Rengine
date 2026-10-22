@@ -1,0 +1,30 @@
+{
+  "_note": "Extra job boards read generically (RSS feed if the site has one, otherwise listing pages -> job pages with schema.org JobPosting data). Add any board by appending an entry: name + one or more listing-page URLs (a category/search page like .../remote-devops-jobs works best). URLs marked 'pattern guess' follow the site's known URL style but are unverified; the daily email's coverage section reports any that fail.",
+  "sites": [
+    {"name": "Truly Remote Work", "remote_only": true, "max_details": 30, "urls": [
+      "https://trulyremotework.com/remote-devops-jobs",
+      "https://trulyremotework.com/remote-platform-engineer-jobs",
+      "https://trulyremotework.com/remote-sre-jobs",
+      "https://trulyremotework.com/remote-cloud-engineer-jobs",
+      "https://trulyremotework.com/remote-infrastructure-engineer-jobs",
+      "https://trulyremotework.com/remote-developer-jobs",
+      "https://trulyremotework.com/remote-software-engineer-jobs"]},
+    {"name": "Work From Anywhere", "remote_only": true, "max_details": 30, "urls": [
+      "https://workfromanywhere.app/remote-devops-jobs",
+      "https://workfromanywhere.app/remote-sre-jobs",
+      "https://workfromanywhere.app/remote-cloud-engineer-jobs",
+      "https://workfromanywhere.app/remote-platform-engineer-jobs",
+      "https://workfromanywhere.app/"]},
+    {"name": "Remote Jobs Global", "remote_only": true, "max_details": 30, "urls": ["https://remotejobsglobal.com/"]},
+    {"name": "JobsHive", "remote_only": false, "max_details": 30, "urls": ["https://jobshive.com/"]},
+    {"name": "RemoteDXB", "remote_only": true, "max_details": 25, "urls": ["https://www.remotedxb.com/"]},
+    {"name": "Remote.co", "remote_only": true, "max_details": 25, "urls": [
+      "https://remote.co/remote-jobs/",
+      "https://remote.co/remote-jobs/developer/",
+      "https://remote.co/remote-jobs/devops-sysadmin/"]},
+    {"name": "NoDesk", "remote_only": true, "max_details": 25, "urls": ["https://nodesk.co/remote-jobs/"]},
+    {"name": "JustRemote", "remote_only": true, "max_details": 25, "urls": ["https://justremote.co/remote-devops-jobs"]},
+    {"name": "Jobspresso", "remote_only": true, "max_details": 25, "urls": ["https://jobspresso.co/"]},
+    {"name": "DailyRemote", "remote_only": true, "max_details": 25, "urls": ["https://dailyremote.com/remote-devops-jobs"]}
+  ]
+}

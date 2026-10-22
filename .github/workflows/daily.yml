@@ -1,0 +1,61 @@
+name: Remote job engine
+
+on:
+  schedule:
+    - cron: "0 */5 * * *"   # every 5 hours (00,05,10,15,20 UTC = 03:00, 08:00, 13:00, 18:00, 23:00 Nairobi); GitHub may delay a few minutes
+    - cron: "0 6 * * 0"     # weekly roundup, Sundays 09:00 Africa/Nairobi
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "daily or weekly"
+        type: choice
+        options: [daily, weekly]
+        default: daily
+      dry_run:
+        description: "Dry run (build previews, send nothing, save no state)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: job-engine
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run engine
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          TO_EMAIL: ${{ secrets.TO_EMAIL }}
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+        run: |
+          ARGS=""
+          if [ "${{ github.event.schedule }}" = "0 6 * * 0" ] || [ "${{ inputs.mode }}" = "weekly" ]; then ARGS="--weekly"; fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          python job_digest.py $ARGS
+      - name: Save state and resumes
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "job-engine-bot"
+          git config user.email "job-engine-bot@users.noreply.github.com"
+          git add -A data
+          git diff --staged --quiet || (git commit -m "Update job engine data" && git pull --rebase origin main && git push)
+      - name: Upload previews
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview
+          path: preview
+          if-no-files-found: ignore
