@@ -1,0 +1,1221 @@
+{
+ "name": "AARON ECHOSIT",
+ "contact": {
+  "location": "Nairobi, Kenya",
+  "phone": "+254 790 436 393",
+  "email": "echositaaron@gmail.com",
+  "links": [
+   "linkedin.com/in/aaron-echosit",
+   "aaronechosit.pages.dev",
+   "github.com/echositaaron"
+  ]
+ },
+ "career_start": "2022-02",
+ "variants": {
+  "cloud": {
+   "keywords": [
+    "cloud",
+    "azure",
+    "aws",
+    "gcp",
+    "finops",
+    "architect",
+    "security",
+    "landing zone"
+   ],
+   "headline": "CLOUD ENGINEER | AWS & AZURE | CLOUD ARCHITECTURE | SECURITY",
+   "summary": "Cloud engineer who designed, operated, and secured AWS and Azure foundations for regulated, business-critical workloads. Delivered landing-zone governance, private and hybrid networking, infrastructure as code, security remediation, backup and recovery validation, monitoring, and cloud-cost controls across a large production estate."
+  },
+  "devops": {
+   "keywords": [
+    "devops",
+    "ci/cd",
+    "release",
+    "build",
+    "automation",
+    "devsecops",
+    "pipeline",
+    "delivery"
+   ],
+   "headline": "DEVOPS ENGINEER | CI/CD | INFRASTRUCTURE AS CODE | AUTOMATION",
+   "summary": "DevOps and cloud engineer who automated AWS and Azure infrastructure and production application delivery with Terraform, Azure DevOps CI/CD, Git-reviewed changes, Kubernetes, and security checks. Improved release speed and deployment reliability by automating build, validation, provisioning, and operational workflows with Python, Bash, and PowerShell."
+  },
+  "platform": {
+   "keywords": [
+    "platform",
+    "developer",
+    "kubernetes",
+    "container",
+    "internal developer",
+    "self-service",
+    "developer experience",
+    "cloud native"
+   ],
+   "headline": "PLATFORM ENGINEER | KUBERNETES | CLOUD FOUNDATIONS",
+   "summary": "Platform engineer who built and operated Kubernetes and cloud foundations used by application teams. Improved developer enablement through reusable infrastructure, standardized Helm deployment patterns, self-service access automation, cluster lifecycle management, secure CI/CD, and integrated observability."
+  },
+  "sre": {
+   "keywords": [
+    "sre",
+    "site reliability",
+    "reliability",
+    "production engineer",
+    "observability",
+    "incident",
+    "on-call",
+    "monitoring"
+   ],
+   "headline": "SITE RELIABILITY ENGINEER | OBSERVABILITY | INCIDENT RESPONSE",
+   "summary": "Reliability-focused cloud engineer who operated production Kubernetes and cloud services, investigated incidents, and automated recovery and capacity checks. Improved service visibility and change safety with centralized logs and metrics, controlled cluster upgrades, validated backups, and documented operational procedures."
+  },
+  "infrastructure": {
+   "keywords": [
+    "infrastructure",
+    "systems engineer",
+    "network",
+    "capacity",
+    "hybrid",
+    "datacenter",
+    "data center",
+    "linux"
+   ],
+   "headline": "INFRASTRUCTURE ENGINEER | CLOUD | NETWORKING | AUTOMATION",
+   "summary": "Infrastructure engineer experienced in operating regulated Azure and AWS environments across compute, hybrid systems, Kubernetes, networking, identity, security, storage, and recovery. Automated provisioning and operations with infrastructure as code and scripting, strengthened continuity through patch and backup validation, and optimized infrastructure cost without degrading service."
+  }
+ },
+ "impact_pool": [
+  {
+   "text": "25+ AKS/EKS clusters",
+   "terms": [
+    "kubernetes"
+   ],
+   "pin": true
+  },
+  {
+   "text": "500+ microservices",
+   "terms": [
+    "kubernetes",
+    "platform engineering"
+   ],
+   "pin": true
+  },
+  {
+   "text": "1,000+ databases",
+   "terms": [
+    "backup/dr"
+   ]
+  },
+  {
+   "text": "100+ VMs",
+   "terms": [
+    "linux",
+    "azure",
+    "aws"
+   ]
+  },
+  {
+   "text": "99.99% availability",
+   "terms": [
+    "reliability",
+    "incident response"
+   ],
+   "pin": true
+  },
+  {
+   "text": "Provisioning: ~4 hours to 24 minutes",
+   "terms": [
+    "terraform",
+    "automation"
+   ],
+   "pin": true
+  },
+  {
+   "text": "35% faster incident resolution",
+   "terms": [
+    "incident response",
+    "observability",
+    "reliability"
+   ]
+  },
+  {
+   "text": "996 findings reduced to 2",
+   "terms": [
+    "security"
+   ]
+  },
+  {
+   "text": "Secure Score: 54 to 76",
+   "terms": [
+    "security",
+    "azure"
+   ]
+  },
+  {
+   "text": "Cloud spend: 25% lower",
+   "terms": [
+    "finops"
+   ]
+  },
+  {
+   "text": "Deployment time: 80% faster",
+   "terms": [
+    "ci/cd",
+    "azure devops"
+   ]
+  },
+  {
+   "text": "90% less manual release effort",
+   "terms": [
+    "ci/cd",
+    "automation"
+   ]
+  },
+  {
+   "text": "70% fewer deployment failures",
+   "terms": [
+    "helm",
+    "docker",
+    "kubernetes"
+   ]
+  },
+  {
+   "text": "20+ Java applications containerized",
+   "terms": [
+    "docker",
+    "java",
+    "helm"
+   ]
+  },
+  {
+   "text": "40+ workloads migrated, zero data loss",
+   "terms": [
+    "backup/dr",
+    "aws"
+   ]
+  },
+  {
+   "text": "MTTR reduced 65%",
+   "terms": [
+    "incident response",
+    "linux"
+   ]
+  },
+  {
+   "text": "PCI-DSS audit closed with zero findings",
+   "terms": [
+    "security",
+    "landing zone"
+   ]
+  },
+  {
+   "text": "Self-service logging access",
+   "terms": [
+    "platform engineering",
+    "observability"
+   ]
+  }
+ ],
+ "experience": [
+  {
+   "title": "Cloud Engineer",
+   "company": "Equity Group Holdings / Equity Bank Kenya",
+   "dates": "October 2024 - Present",
+   "max": 10,
+   "min": 7,
+   "bullets": [
+    {
+     "t": "Operated cloud infrastructure across 25+ Kubernetes clusters, 500+ microservices, 1,000+ databases, and 100+ VMs supporting 99.99% availability.",
+     "pin": true
+    },
+    {
+     "t": "Cut environment provisioning from about four hours to 24 minutes with reusable Terraform modules and version-controlled configuration.",
+     "pin": true
+    },
+    {
+     "t": "Applied Git-reviewed, GitOps-aligned change control to Terraform updates, improving traceability, reviewability, and consistency of infrastructure changes.",
+     "pin": false
+    },
+    {
+     "t": "Automated cloud validation and remediation with Python, PowerShell, Azure Automation, and Ansible, reducing repetitive manual operations.",
+     "pin": false
+    },
+    {
+     "t": "Correlated Tenable and Defender findings and automated validation and remediation with Python, Azure Automation, and Ansible, reducing the backlog from 996 findings to 2.",
+     "pin": false
+    },
+    {
+     "t": "Raised Microsoft Secure Score from 54 to 76 by prioritizing cloud security findings with security and operations teams.",
+     "pin": false
+    },
+    {
+     "t": "Developed a Python remediation engine that detected Kubernetes deployment failures and initiated recovery actions, contributing to 35% faster incident resolution.",
+     "pin": false
+    },
+    {
+     "t": "Integrated cloud and platform telemetry into operational workflows, contributing to 35% faster incident resolution.",
+     "pin": false
+    },
+    {
+     "t": "Diagnosed production incidents involving node health, memory pressure, OOM/eviction events, failed probes, and application/network timeouts to restore service safely.",
+     "pin": false
+    },
+    {
+     "t": "Documented repeatable incident-troubleshooting runbooks for Kubernetes, cloud networking, and security investigations.",
+     "pin": false
+    },
+    {
+     "t": "Rolled out Grafana Loki and Alloy through Terraform, Helm, and Azure DevOps across production clusters, centralizing Kubernetes logs for investigation.",
+     "pin": false
+    },
+    {
+     "t": "Created self-service developer tooling for Loki access that opened a pull request, synchronized the requester's Entra ID group, and sent completion notifications.",
+     "pin": false
+    },
+    {
+     "t": "Planned AKS version upgrades across nine production clusters with staged rollout, node surge, workload-health validation, and rollback criteria.",
+     "pin": false
+    },
+    {
+     "t": "Established Azure Landing Zone governance across management groups, RBAC, Azure Policy, subscription vending, and hub-and-spoke networking.",
+     "pin": false
+    },
+    {
+     "t": "Engineered controlled network paths with Azure CNI, Cilium, NSGs, Private Endpoints, Application Gateway, Azure Firewall, and ExpressRoute.",
+     "pin": false
+    },
+    {
+     "t": "Applied Cilium NetworkPolicy controls to restrict unnecessary east-west and egress traffic between workloads.",
+     "pin": false
+    },
+    {
+     "t": "Reduced cloud spend by 25% through workload rightsizing, autoscaling, idle-resource removal, and cost-governance automation.",
+     "pin": false
+    },
+    {
+     "t": "Automated daily cloud compliance checks and resource tagging with ARM templates and Azure Resource Graph, improving ownership and remediation visibility.",
+     "pin": false
+    },
+    {
+     "t": "Built Python capacity checks across 16+ subscriptions to surface utilization, quota headroom, and scaling risks before they constrained workloads.",
+     "pin": false
+    },
+    {
+     "t": "Validated Azure Update Manager patch compliance across 112 Azure and Arc-enabled machines, separating real update gaps from reporting limitations.",
+     "pin": false
+    },
+    {
+     "t": "Verified Windows TLS 1.0 and 1.1 configuration findings through registry checks and remote execution to guide remediation decisions.",
+     "pin": false
+    },
+    {
+     "t": "Provided identity, network, encryption, and logging evidence for a third-party PCI-DSS audit that closed with zero findings.",
+     "pin": false
+    },
+    {
+     "t": "Validated backup status, retention, recovery points, restore capability, and geo-redundancy to strengthen disaster-recovery readiness for critical workloads.",
+     "pin": false
+    },
+    {
+     "t": "Reviewed daily application-consistent recovery points for a 250-GB MongoDB standalone database protected through Azure Backup to assess recovery coverage.",
+     "pin": false
+    },
+    {
+     "t": "Compiled restoration logs and backup evidence for Jenga, Equitel MGW, MICA, and SMSC systems to support audit review and recovery readiness.",
+     "pin": false
+    },
+    {
+     "t": "Built a Python least-privilege analyzer that identified excessive permissions across 200+ cloud accounts for access reviews.",
+     "pin": false
+    },
+    {
+     "t": "Produced infrastructure design specifications and diagrams for compute, cluster topology, networking, and platform changes.",
+     "pin": false
+    },
+    {
+     "t": "Supported Azure AI infrastructure integrations by reviewing cloud connectivity and deployment requirements for Azure AI Foundry, Kubeflow, RAG, and model-serving workloads.",
+     "pin": false
+    }
+   ]
+  },
+  {
+   "title": "Cloud Platform Engineer",
+   "company": "E&M Technology House",
+   "dates": "April 2024 - October 2024",
+   "max": 6,
+   "min": 5,
+   "bullets": [
+    {
+     "t": "Built Azure DevOps CI/CD pipelines with Git, Maven, and SonarQube quality and security gates, reducing deployment time by 80%.",
+     "pin": false
+    },
+    {
+     "t": "Reduced manual release effort by 90% by automating build, validation, and security controls in the delivery workflow.",
+     "pin": false
+    },
+    {
+     "t": "Built repeatable Docker, Kubernetes, Amazon EKS, and Helm release workflows for 20+ Java applications, reducing deployment failures by 70%.",
+     "pin": false
+    },
+    {
+     "t": "Developed reusable Terraform modules for AWS provisioning, reducing provisioning effort by 85%.",
+     "pin": false
+    },
+    {
+     "t": "Migrated 40+ workloads with Multi-AZ failover, supporting 99.9% business continuity with zero data loss during cutover.",
+     "pin": false
+    },
+    {
+     "t": "Established Prometheus, Grafana, CloudWatch, and ELK monitoring across application and infrastructure workloads, reducing incident detection time by 60%.",
+     "pin": false
+    },
+    {
+     "t": "Troubleshot Linux, JVM, and Nginx deployment issues while applying least-privilege, secrets, and network controls, reducing MTTR by 65%.",
+     "pin": false
+    },
+    {
+     "t": "Moved a 12+ service trade-finance platform to EKS with standardized Helm patterns, enabling independent scaling without full rearchitecture.",
+     "pin": false
+    }
+   ]
+  },
+  {
+   "title": "Software Engineer, Java/Python",
+   "company": "E&M Technology House",
+   "dates": "January 2024 - April 2024",
+   "max": 3,
+   "min": 2,
+   "bullets": [
+    {
+     "t": "Decomposed trade-finance workflows into independently deployable Spring Boot microservices, reducing release coupling between application components.",
+     "pin": false
+    },
+    {
+     "t": "Implemented RabbitMQ event processing on Amazon EKS, decoupling asynchronous trade-finance workflows and reducing synchronous service dependencies.",
+     "pin": false
+    },
+    {
+     "t": "Secured REST APIs with OAuth2 and JWT, and integrated SAST, DAST, and dependency scanning to catch authentication and dependency risks before release.",
+     "pin": false
+    },
+    {
+     "t": "Built 12+ Spring Boot services and 30+ REST APIs integrating SWIFT MT, IBM MQ, and ISO 15022 workflows at 99.95% transaction reliability.",
+     "pin": false
+    },
+    {
+     "t": "Tuned JVM caching and JDBC connection pools to improve runtime resource efficiency for transaction-processing services.",
+     "pin": false
+    },
+    {
+     "t": "Aligned Maven service builds with Docker and EKS deployment patterns, enabling teams to package and scale components independently.",
+     "pin": false
+    }
+   ]
+  },
+  {
+   "title": "Freelance Cloud & Platform Engineer",
+   "company": "Remote Engagements",
+   "dates": "February 2022 - December 2023",
+   "max": 5,
+   "min": 4,
+   "bullets": [
+    {
+     "t": "Provisioned AWS and Azure infrastructure with Terraform and Ansible, reducing client provisioning effort by approximately 95%.",
+     "pin": false
+    },
+    {
+     "t": "Deployed and operated AKS and Confluent for Kubernetes across development, test, performance, and production environments, supporting 99.9% client workload availability.",
+     "pin": false
+    },
+    {
+     "t": "Automated repeatable infrastructure and release workflows with Python, PowerShell, Terraform, and Ansible, cutting recurring deployment effort by 50%.",
+     "pin": false
+    },
+    {
+     "t": "Built reusable AWS, Azure, and GCP landing-zone modules with Open Policy Agent checks to validate infrastructure policy before deployment.",
+     "pin": false
+    },
+    {
+     "t": "Restructured EFS, S3, Aurora, and AWS Backup architecture to reduce client infrastructure costs by approximately 40% without service degradation.",
+     "pin": false
+    },
+    {
+     "t": "Reduced new-environment onboarding time for clients without dedicated platform teams by standardizing multi-cloud Terraform foundations.",
+     "pin": false
+    }
+   ]
+  }
+ ],
+ "skill_lines": [
+  {
+   "label": "Cloud platforms",
+   "items": [
+    "Azure",
+    "AWS",
+    "Oracle Cloud Infrastructure",
+    "Terraform-based GCP foundation",
+    "Azure VMs",
+    "Azure Arc",
+    "EC2",
+    "App Service",
+    "hybrid operations"
+   ]
+  },
+  {
+   "label": "Kubernetes & containers",
+   "items": [
+    "AKS",
+    "EKS",
+    "Kubernetes",
+    "Docker",
+    "Helm",
+    "KEDA",
+    "HPA",
+    "Cilium",
+    "NetworkPolicy",
+    "cluster lifecycle",
+    "cluster upgrades"
+   ]
+  },
+  {
+   "label": "Infrastructure as code",
+   "items": [
+    "Terraform modules and state",
+    "Bicep",
+    "ARM templates",
+    "CloudFormation",
+    "Ansible",
+    "Azure Resource Graph",
+    "Open Policy Agent",
+    "policy as code"
+   ]
+  },
+  {
+   "label": "CI/CD & delivery",
+   "items": [
+    "Azure DevOps",
+    "Git",
+    "Maven",
+    "SonarQube",
+    "pipeline automation",
+    "quality gates",
+    "release controls",
+    "GitOps-aligned workflows",
+    "rollout and rollback"
+   ]
+  },
+  {
+   "label": "Observability",
+   "items": [
+    "Prometheus",
+    "Grafana",
+    "Loki",
+    "Alloy",
+    "Datadog",
+    "Azure Monitor",
+    "Application Insights",
+    "OpenTelemetry",
+    "CloudWatch",
+    "ELK"
+   ]
+  },
+  {
+   "label": "Reliability & incident response",
+   "items": [
+    "production troubleshooting",
+    "log/metric investigation",
+    "root-cause analysis",
+    "runbooks",
+    "post-incident learning",
+    "availability",
+    "capacity planning",
+    "recovery validation"
+   ]
+  },
+  {
+   "label": "Resilience & recovery",
+   "items": [
+    "Azure/AWS Backup",
+    "point-in-time recovery",
+    "restore validation",
+    "Multi-AZ",
+    "geo-redundancy",
+    "retention"
+   ]
+  },
+  {
+   "label": "Networking",
+   "items": [
+    "Azure CNI",
+    "Cilium",
+    "NSGs",
+    "Private Endpoints",
+    "Application Gateway",
+    "Azure Firewall",
+    "ExpressRoute",
+    "DNS/routing",
+    "hub-and-spoke"
+   ]
+  },
+  {
+   "label": "Security & governance",
+   "items": [
+    "RBAC/IAM",
+    "PIM",
+    "Key Vault",
+    "Defender for Cloud",
+    "AWS Security Hub",
+    "Tenable",
+    "TLS/mTLS",
+    "Azure Policy",
+    "Azure Landing Zones",
+    "vulnerability remediation",
+    "SAST",
+    "DAST",
+    "dependency scanning",
+    "secrets controls"
+   ]
+  },
+  {
+   "label": "Scripting & automation",
+   "items": [
+    "Python",
+    "Bash",
+    "PowerShell",
+    "Azure Automation",
+    "remediation workflows"
+   ]
+  },
+  {
+   "label": "FinOps & cost",
+   "items": [
+    "rightsizing",
+    "autoscaling",
+    "tagging",
+    "cost governance",
+    "cost analysis"
+   ]
+  },
+  {
+   "label": "Operations",
+   "items": [
+    "Linux",
+    "Windows",
+    "Azure Update Manager",
+    "patching",
+    "change control",
+    "ITIL 4"
+   ]
+  },
+  {
+   "label": "Application stack",
+   "items": [
+    "Java",
+    "Python",
+    "Spring Boot",
+    "RabbitMQ",
+    "REST APIs",
+    "OAuth2/JWT",
+    "IBM MQ"
+   ]
+  }
+ ],
+ "projects": [
+  {
+   "name": "Vulnerability remediation workflow",
+   "text": "Normalized findings, validated targets, staged changes, and verified resulting state.",
+   "terms": [
+    "security",
+    "automation",
+    "python"
+   ]
+  },
+  {
+   "name": "Terraform delivery",
+   "text": "Standardized reusable AWS and Azure foundations with Git-reviewed changes.",
+   "terms": [
+    "terraform",
+    "ci/cd",
+    "gitops"
+   ]
+  },
+  {
+   "name": "AKS upgrade safety",
+   "text": "Applied staged version upgrades, health checks, workload validation, and rollback criteria in production.",
+   "terms": [
+    "kubernetes",
+    "reliability"
+   ]
+  },
+  {
+   "name": "Capacity assurance",
+   "text": "Built Python checks across 16+ subscriptions to surface utilization, quota headroom, and scaling risk.",
+   "terms": [
+    "capacity",
+    "python",
+    "reliability",
+    "azure"
+   ]
+  },
+  {
+   "name": "Least-privilege review",
+   "text": "Developed a Python analyzer that flagged excessive permissions across 200+ cloud accounts.",
+   "terms": [
+    "security",
+    "python"
+   ]
+  },
+  {
+   "name": "Recovery readiness",
+   "text": "Assessed backup status, retention, recovery points, redundancy, restore capability, and audit evidence.",
+   "terms": [
+    "backup/dr",
+    "reliability"
+   ]
+  },
+  {
+   "name": "Self-service logging access",
+   "text": "Automated request, Entra ID group synchronization, pull-request creation, and user notification.",
+   "terms": [
+    "platform engineering",
+    "observability",
+    "automation"
+   ]
+  },
+  {
+   "name": "Multi-cloud landing zone",
+   "text": "Created reusable Terraform foundations spanning AWS, Azure, and GCP.",
+   "terms": [
+    "terraform",
+    "landing zone",
+    "gcp",
+    "aws",
+    "azure"
+   ]
+  },
+  {
+   "name": "Centralized Kubernetes logging",
+   "text": "Routed pod logs through Alloy and Loki into Grafana and SIEM investigation workflows.",
+   "terms": [
+    "observability",
+    "kubernetes"
+   ]
+  },
+  {
+   "name": "IntelliKube",
+   "text": "Prototyped Kubernetes signal correlation and AI-assisted investigation with human evidence review.",
+   "terms": [
+    "kubernetes",
+    "incident response",
+    "ai infrastructure",
+    "observability"
+   ]
+  },
+  {
+   "name": "Azure Landing Zone governance",
+   "text": "Standardized identity, policy, subscription, and network boundaries for workload isolation.",
+   "terms": [
+    "landing zone",
+    "azure",
+    "security"
+   ]
+  },
+  {
+   "name": "Cloud cost reporting",
+   "text": "Automated daily VM and SQL cost analysis with Azure Logic Apps and Azure Data Explorer.",
+   "terms": [
+    "finops",
+    "azure",
+    "automation"
+   ]
+  }
+ ],
+ "certifications": [
+  {
+   "name": "AWS Certified DevOps Engineer - Professional",
+   "terms": [
+    "aws",
+    "ci/cd"
+   ]
+  },
+  {
+   "name": "AWS Certified Solutions Architect - Professional",
+   "terms": [
+    "aws"
+   ]
+  },
+  {
+   "name": "Certified Kubernetes Administrator (CKA)",
+   "terms": [
+    "kubernetes"
+   ]
+  },
+  {
+   "name": "AWS Certified Security - Specialty",
+   "terms": [
+    "aws",
+    "security"
+   ]
+  },
+  {
+   "name": "AWS Certified Solutions Architect - Associate",
+   "terms": [
+    "aws"
+   ]
+  },
+  {
+   "name": "Microsoft Certified: Azure Administrator Associate",
+   "terms": [
+    "azure"
+   ]
+  },
+  {
+   "name": "FinOps Certified Engineer",
+   "terms": [
+    "finops"
+   ]
+  },
+  {
+   "name": "FinOps Certified Practitioner",
+   "terms": [
+    "finops"
+   ]
+  },
+  {
+   "name": "ITIL 4 Foundation",
+   "terms": [
+    "incident response"
+   ]
+  },
+  {
+   "name": "Cisco Data Center & AI Infrastructure (DCAI)",
+   "terms": [
+    "ai infrastructure",
+    "networking"
+   ]
+  }
+ ],
+ "education": "BSc, Electrical and Electronic Engineering | University of Nairobi | 2016-2021",
+ "skills": {
+  "kubernetes": {
+   "w": 3,
+   "aliases": [
+    "kubernetes",
+    "k8s",
+    "aks",
+    "eks",
+    "gke",
+    "container orchestration"
+   ]
+  },
+  "terraform": {
+   "w": 3,
+   "aliases": [
+    "terraform",
+    "infrastructure as code",
+    "infrastructure-as-code",
+    "iac",
+    "opentofu"
+   ]
+  },
+  "azure": {
+   "w": 3,
+   "aliases": [
+    "azure",
+    "microsoft azure",
+    "entra",
+    "bicep",
+    "arm templates"
+   ]
+  },
+  "aws": {
+   "w": 3,
+   "aliases": [
+    "aws",
+    "amazon web services",
+    "ec2",
+    "cloudformation",
+    "cloudwatch"
+   ]
+  },
+  "gcp": {
+   "w": 2,
+   "aliases": [
+    "gcp",
+    "google cloud"
+   ]
+  },
+  "ci/cd": {
+   "w": 3,
+   "aliases": [
+    "ci/cd",
+    "cicd",
+    "ci-cd",
+    "continuous integration",
+    "continuous delivery",
+    "continuous deployment",
+    "deployment automation"
+   ]
+  },
+  "azure devops": {
+   "w": 2,
+   "aliases": [
+    "azure devops"
+   ]
+  },
+  "helm": {
+   "w": 2,
+   "aliases": [
+    "helm"
+   ]
+  },
+  "docker": {
+   "w": 2,
+   "aliases": [
+    "docker",
+    "containerization",
+    "containerisation",
+    "containers"
+   ]
+  },
+  "python": {
+   "w": 2,
+   "aliases": [
+    "python"
+   ]
+  },
+  "bash": {
+   "w": 1,
+   "aliases": [
+    "bash",
+    "shell scripting"
+   ]
+  },
+  "powershell": {
+   "w": 1,
+   "aliases": [
+    "powershell"
+   ]
+  },
+  "ansible": {
+   "w": 2,
+   "aliases": [
+    "ansible"
+   ]
+  },
+  "observability": {
+   "w": 3,
+   "aliases": [
+    "observability",
+    "monitoring",
+    "telemetry",
+    "opentelemetry",
+    "tracing",
+    "logging"
+   ]
+  },
+  "prometheus": {
+   "w": 2,
+   "aliases": [
+    "prometheus"
+   ]
+  },
+  "grafana": {
+   "w": 2,
+   "aliases": [
+    "grafana",
+    "loki"
+   ]
+  },
+  "datadog": {
+   "w": 2,
+   "aliases": [
+    "datadog"
+   ]
+  },
+  "elk": {
+   "w": 1,
+   "aliases": [
+    "elk",
+    "elasticsearch",
+    "kibana"
+   ]
+  },
+  "incident response": {
+   "w": 3,
+   "aliases": [
+    "incident response",
+    "incident management",
+    "on-call",
+    "on call",
+    "incident",
+    "postmortem",
+    "post-mortem",
+    "root cause",
+    "mttr",
+    "troubleshooting"
+   ]
+  },
+  "reliability": {
+   "w": 3,
+   "aliases": [
+    "reliability",
+    "sre",
+    "site reliability",
+    "availability",
+    "resilience",
+    "resiliency",
+    "uptime"
+   ]
+  },
+  "networking": {
+   "w": 2,
+   "aliases": [
+    "networking",
+    "dns",
+    "vpc",
+    "vnet",
+    "load balancing",
+    "load balancer",
+    "firewall",
+    "expressroute",
+    "routing",
+    "tcp/ip"
+   ]
+  },
+  "security": {
+   "w": 2,
+   "aliases": [
+    "security",
+    "devsecops",
+    "vulnerability",
+    "vulnerabilities",
+    "compliance",
+    "pci-dss",
+    "pci dss",
+    "iam",
+    "rbac",
+    "zero trust",
+    "hardening"
+   ]
+  },
+  "finops": {
+   "w": 2,
+   "aliases": [
+    "finops",
+    "cost optimization",
+    "cost optimisation",
+    "cost management",
+    "rightsizing",
+    "cloud cost"
+   ]
+  },
+  "gitops": {
+   "w": 2,
+   "aliases": [
+    "gitops",
+    "argocd",
+    "argo cd",
+    "fluxcd"
+   ]
+  },
+  "linux": {
+   "w": 2,
+   "aliases": [
+    "linux"
+   ]
+  },
+  "capacity": {
+   "w": 1,
+   "aliases": [
+    "capacity planning",
+    "capacity"
+   ]
+  },
+  "backup/dr": {
+   "w": 2,
+   "aliases": [
+    "disaster recovery",
+    "backup",
+    "business continuity",
+    "multi-az",
+    "failover"
+   ]
+  },
+  "landing zone": {
+   "w": 2,
+   "aliases": [
+    "landing zone",
+    "landing zones",
+    "governance",
+    "azure policy",
+    "policy as code",
+    "open policy agent"
+   ]
+  },
+  "platform engineering": {
+   "w": 3,
+   "aliases": [
+    "platform engineering",
+    "internal developer platform",
+    "developer platform",
+    "developer experience",
+    "developer productivity",
+    "self-service"
+   ]
+  },
+  "automation": {
+   "w": 2,
+   "aliases": [
+    "automation",
+    "scripting",
+    "remediation"
+   ]
+  },
+  "java": {
+   "w": 1,
+   "aliases": [
+    "java",
+    "spring boot",
+    "jvm",
+    "maven"
+   ]
+  },
+  "messaging": {
+   "w": 1,
+   "aliases": [
+    "rabbitmq",
+    "kafka",
+    "event-driven",
+    "messaging",
+    "confluent"
+   ]
+  },
+  "ai infrastructure": {
+   "w": 1,
+   "aliases": [
+    "mlops",
+    "ai infrastructure",
+    "model serving",
+    "kubeflow",
+    "gpu"
+   ]
+  }
+ },
+ "gap_terms": {
+  "Go/Golang": [
+   "golang"
+  ],
+  "Rust": [
+   "rust"
+  ],
+  "Ruby": [
+   "ruby"
+  ],
+  "TypeScript/Node.js": [
+   "typescript",
+   "node.js",
+   "nodejs"
+  ],
+  "Puppet/Chef/Salt": [
+   "puppet",
+   "chef",
+   "saltstack"
+  ],
+  "HashiCorp Vault/Consul/Nomad": [
+   "hashicorp vault",
+   "consul",
+   "nomad"
+  ],
+  "Istio/Envoy/service mesh": [
+   "istio",
+   "envoy",
+   "linkerd",
+   "service mesh"
+  ],
+  "Pulumi/Crossplane": [
+   "pulumi",
+   "crossplane"
+  ],
+  "Argo CD/Flux": [
+   "argocd",
+   "argo cd",
+   "fluxcd"
+  ],
+  "Jenkins": [
+   "jenkins"
+  ],
+  "GitHub Actions": [
+   "github actions"
+  ],
+  "GitLab CI": [
+   "gitlab ci",
+   "gitlab-ci"
+  ],
+  "CircleCI": [
+   "circleci"
+  ],
+  "Kafka": [
+   "kafka"
+  ],
+  "PostgreSQL/MySQL": [
+   "postgresql",
+   "postgres",
+   "mysql"
+  ],
+  "Redis/Cassandra": [
+   "redis",
+   "cassandra"
+  ],
+  "Snowflake/Spark/Airflow": [
+   "snowflake",
+   "spark",
+   "airflow"
+  ],
+  "OpenStack/bare metal": [
+   "openstack",
+   "bare metal",
+   "bare-metal"
+  ],
+  "C/C++": [
+   "c++"
+  ],
+  "eBPF": [
+   "ebpf"
+  ],
+  "Splunk/New Relic": [
+   "splunk",
+   "new relic"
+  ],
+  "PagerDuty/Opsgenie": [
+   "pagerduty",
+   "opsgenie"
+  ],
+  "SLOs/error budgets": [
+   "error budget",
+   "slo",
+   "slos",
+   "sli"
+  ],
+  "Chaos engineering": [
+   "chaos engineering"
+  ],
+  "SOC 2/ISO 27001/HIPAA": [
+   "soc 2",
+   "soc2",
+   "iso 27001",
+   "hipaa"
+  ],
+  "GPU/CUDA/Slurm": [
+   "cuda",
+   "slurm",
+   "gpu cluster"
+  ],
+  "OpenShift/VMware": [
+   "openshift",
+   "vmware"
+  ],
+  "BGP/advanced networking": [
+   "bgp"
+  ]
+ }
+}
