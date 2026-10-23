@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-10-23T18:49:37.025754+00:00",
+  "last_run": "2026-10-23T22:48:31.185677+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -27,7 +27,9 @@
    "https://jobspresso.co/job/devops-engineer-vac-dst/",
    "https://jobspresso.co/job/senior-platform-engineer/",
    "https://jobspresso.co/job/customer-reliability-engineer/",
-   "https://jobspresso.co/job/ml-agentic-systems-engineer-ic4/"
+   "https://jobspresso.co/job/ml-agentic-systems-engineer-ic4/",
+   "https://nodesk.co/remote-jobs/canonical-cloud-engineering-manager-2/",
+   "https://nodesk.co/remote-jobs/cloud/"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
