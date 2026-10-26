@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-10-26T02:37:58.299717+00:00",
+  "last_run": "2026-10-26T10:41:35.611759+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -31,7 +31,8 @@
    "https://nodesk.co/remote-jobs/canonical-cloud-engineering-manager-2/",
    "https://nodesk.co/remote-jobs/cloud/",
    "https://jobspresso.co/job/lead-engineer-ai-platform/",
-   "https://jobspresso.co/job/director-product-management-observability/"
+   "https://jobspresso.co/job/director-product-management-observability/",
+   "https://jobspresso.co/job/devops-engineer-vac-dst-2/"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -113,5 +114,37 @@
   "update": "",
   "variant": "sre",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-10-25/Aaron_Echosit_Software_Engineer_Site_Reliability.pdf"
+ },
+ "upstart|devopsengineeriicloudplatform": {
+  "title": "DevOps Engineer II, Cloud Platform",
+  "company": "Upstart",
+  "url": "https://weworkremotely.com/remote-jobs/upstart-devops-engineer-ii-cloud-platform",
+  "source": "WeWorkRemotely",
+  "score": 100,
+  "priority": "Apply now",
+  "status": "ok",
+  "elig": "Worldwide (Anywhere in the World)",
+  "salary": "$142,000 — $196,600",
+  "posted": "2026-10-26T07:31:14+00:00",
+  "sent": "2026-10-26T10:41:35.611759+00:00",
+  "update": "",
+  "variant": "platform",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-10-26/Aaron_Echosit_Upstart_DevOps_Engineer_II_Cloud_Platform.pdf"
+ },
+ "supabase|containerengineer": {
+  "title": "Container Engineer",
+  "company": "Supabase",
+  "url": "https://jobs.ashbyhq.com/supabase/6f7656fc-9983-48be-bbd3-8b40e0e3027a",
+  "source": "Ashby",
+  "score": 97,
+  "priority": "Apply now",
+  "status": "ok",
+  "elig": "Worldwide (Remote, Global)",
+  "salary": "",
+  "posted": "2026-10-26T09:32:58.735000+00:00",
+  "sent": "2026-10-26T10:41:35.611759+00:00",
+  "update": "",
+  "variant": "sre",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-10-26/Aaron_Echosit_Supabase_Container_Engineer.pdf"
  }
 }
