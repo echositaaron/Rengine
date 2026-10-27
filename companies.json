@@ -46,13 +46,25 @@
     "scaleway",
     "upwork",
     "automattic",
-    "toptal"
+    "toptal",
+    "affirm",
+    "robinhood",
+    "asana",
+    "figma",
+    "discord",
+    "instacart",
+    "lyft",
+    "algolia",
+    "duolingo",
+    "gusto"
   ],
   "lever": [
     "palantir",
     "spotify",
     "mistral",
-    "kraken"
+    "kraken",
+    "ro",
+    "plume"
   ],
   "ashby": [
     "ramp",
@@ -76,6 +88,11 @@
     "vercel",
     "clickhouse",
     "benchling",
-    "ashby"
+    "ashby",
+    "plaid",
+    "cursor",
+    "pinecone",
+    "vanta",
+    "drata"
   ]
 }

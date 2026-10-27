@@ -23,8 +23,16 @@
       "https://remote.co/remote-jobs/developer/",
       "https://remote.co/remote-jobs/devops-sysadmin/"]},
     {"name": "NoDesk", "remote_only": true, "max_details": 25, "urls": ["https://nodesk.co/remote-jobs/"]},
-    {"name": "JustRemote", "remote_only": true, "max_details": 25, "urls": ["https://justremote.co/remote-devops-jobs"]},
+    {"name": "JustRemote", "remote_only": true, "max_details": 25, "urls": [
+      "https://justremote.co/remote-devops-jobs",
+      "https://justremote.co/remote-developer-jobs"]},
     {"name": "Jobspresso", "remote_only": true, "max_details": 25, "urls": ["https://jobspresso.co/"]},
-    {"name": "DailyRemote", "remote_only": true, "max_details": 25, "urls": ["https://dailyremote.com/remote-devops-jobs"]}
+    {"name": "DailyRemote", "remote_only": true, "max_details": 25, "urls": [
+      "https://dailyremote.com/remote-devops-jobs",
+      "https://dailyremote.com/remote-cloud-engineer-jobs",
+      "https://dailyremote.com/remote-platform-engineer-jobs",
+      "https://dailyremote.com/remote-sre-jobs",
+      "https://dailyremote.com/remote-infrastructure-jobs"]},
+    {"name": "4 Day Week", "remote_only": true, "max_details": 25, "urls": ["https://4dayweek.io/remote-devops-jobs"]}
   ]
 }

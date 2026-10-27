@@ -13,14 +13,14 @@ TZ = ZoneInfo("Africa/Nairobi")
 
 # ---- freshness window -------------------------------------------------------
 FIRST_RUN_HOURS = 5         # first ever run: only jobs published in the last 5 hours
-MAX_WINDOW_HOURS = 48       # later runs: everything since the last run, but never reach back further than this
+MAX_WINDOW_HOURS = 72       # later runs: everything since the last run, but never reach back further than this (hard cap: 3 days)
 OVERLAP_HOURS = 2           # also accept jobs published up to 2h before the last run (feeds often list jobs late);
                             # already-sent jobs are never repeated, so this only catches late-indexed ones. 0 = strict.
 EMAIL_WHEN_EMPTY = False    # no email when nothing new was found
 
 # ---- selection --------------------------------------------------------------
 TARGET_JOBS = 10            # fill short digests with older, unsent matches; 0 disables backfill
-DEEP_SEARCH_DAYS = 21       # oldest posting eligible for backfill
+DEEP_SEARCH_DAYS = 3        # oldest posting eligible for backfill - hard cap: no posting older than 3 days is ever extracted
 MIN_SCORE = 60              # minimum fit score to include
 MIN_CORE_SKILLS = 3         # a job must mention at least this many of CORE_SKILLS (2 for short Hacker News posts)
 MAX_JOBS = 40               # cap per email (if exceeded, the overflow is picked up by the next run)

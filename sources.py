@@ -196,6 +196,24 @@ def fetch_jobicy():
     return out
 
 
+def fetch_arbeitnow():
+    """Unfiltered feed (mostly EU/DE postings) - newest first; title/remote filters below do the real work."""
+    out = []
+    for page in range(1, 6):
+        data = get_json("https://www.arbeitnow.com/api/job-board-api", params={"page": page})
+        batch = data.get("data", [])
+        if not batch:
+            break
+        for j in batch:
+            tags = j.get("tags") or []
+            loc = j.get("location") or ""
+            out.append(make_job("Arbeitnow", "board", j.get("slug") or j.get("url"), j.get("title"), j.get("company_name"),
+                                j.get("url"), f"Remote - {loc}" if j.get("remote") and loc else ("Remote" if j.get("remote") else loc),
+                                to_dt(j.get("created_at")), "", j.get("description"), tags,
+                                remote_confirmed=bool(j.get("remote"))))
+    return out
+
+
 def fetch_hn_whoishiring():
     """Newest monthly 'Ask HN: Who is hiring?' thread; keeps top-level posts that mention remote."""
     hits = get_json("https://hn.algolia.com/api/v1/search_by_date",
@@ -339,5 +357,6 @@ def fetch_ats_group(name):
 BOARDS = {
     "Remotive": fetch_remotive, "RemoteOK": fetch_remoteok, "We Work Remotely": fetch_wwr,
     "Working Nomads": fetch_workingnomads, "Himalayas": fetch_himalayas, "Jobicy": fetch_jobicy,
+    "Arbeitnow": fetch_arbeitnow,
     "Hacker News: Who is hiring": fetch_hn_whoishiring, "JSearch (LinkedIn/Indeed/Glassdoor)": fetch_jsearch,
 }
