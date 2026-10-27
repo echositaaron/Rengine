@@ -1,5 +1,5 @@
 {
-  "_note": "Employer career-site feeds. Slugs come from the careers URL: boards.greenhouse.io/<slug>, jobs.lever.co/<slug>, jobs.ashbyhq.com/<slug>. This starter list is unverified; the digest's coverage section reports any slug that returns 'not found' so you can prune or fix it. Add your own targets freely.",
+  "_note": "Employer career-site feeds. Slugs come from the careers URL: boards.greenhouse.io/<slug>, jobs.lever.co/<slug>, jobs.ashbyhq.com/<slug>, <slug>.bamboohr.com/careers. This starter list is unverified; the digest's coverage section reports any slug that returns 'not found' so you can prune or fix it. Add your own targets freely - this is how you add company career sites from any region (Africa/Europe/Americas/Asia); the eligibility check already applies to every source equally.",
   "greenhouse": [
     "gitlab",
     "cloudflare",
@@ -94,5 +94,13 @@
     "pinecone",
     "vanta",
     "drata"
+  ],
+  "bamboohr": [
+    "flutterwavego",
+    "cellulant",
+    "tala",
+    "selectorsoftware",
+    "astroscale",
+    "sixworks"
   ]
 }

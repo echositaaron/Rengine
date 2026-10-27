@@ -35,7 +35,7 @@ Work outside OneDrive (for example `C:\dev\Rengine`) and run `git pull` before e
 |---|---|
 | `profile.json` | Your resume content (the only source of resume text). Verify the links before applying. |
 | `config.py` | Window, thresholds, title rules, eligibility rules, caps. |
-| `companies.json` | Employer career sites (Greenhouse / Lever / Ashby slugs). Remove any the email reports as not found. |
+| `companies.json` | Employer career sites (Greenhouse / Lever / Ashby / BambooHR slugs). Remove any the email reports as not found. |
 | `sites.json` | Extra job boards read generically (feed, or job pages' structured data). |
 | `sources.py`, `sites.py` | Fetchers. |
 | `fit.py` | Eligibility + fit scoring + gaps. |
@@ -54,7 +54,11 @@ Work outside OneDrive (for example `C:\dev\Rengine`) and run `git pull` before e
   comes up short, there simply weren't enough unsent matching roles in that window (loosen `MIN_SCORE`/`MIN_CORE_SKILLS`
   to allow more, weaker matches).
 - **Add a job board:** append to `sites.json`: `{"name": "Site", "remote_only": true, "urls": ["https://site.com/remote-devops-jobs"]}`.
-- **Add an employer:** add its slug to `companies.json` (from `boards.greenhouse.io/<slug>`, `jobs.lever.co/<slug>`, `jobs.ashbyhq.com/<slug>`).
+- **Add an employer:** add its slug to `companies.json` (from `boards.greenhouse.io/<slug>`, `jobs.lever.co/<slug>`,
+  `jobs.ashbyhq.com/<slug>`, or `<slug>.bamboohr.com/careers`). This is also how to pull in career sites from any
+  region - African, European, Asian and Latin American employers all work the same way, as long as they publish
+  through one of those four ATS platforms. The **Workable (global search)** board additionally searches every
+  company hosted on Workable worldwide (no slug list needed) for remote DevOps/SRE/platform/cloud roles.
 - **Job you found yourself:** save the description to `jd.txt`, then
   `python job_digest.py --tailor jd.txt --title "Senior SRE" --company "Acme" --location "Remote - Worldwide"`.
 

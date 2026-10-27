@@ -1,4 +1,5 @@
-"""Job fetchers: remote job boards, Hacker News 'Who is hiring', and employer career sites (Greenhouse, Lever, Ashby)."""
+"""Job fetchers: remote job boards, Hacker News 'Who is hiring', and employer career sites
+(Greenhouse, Lever, Ashby, BambooHR - any region, plus a global cross-company Workable search)."""
 import html
 import json
 import os
@@ -239,6 +240,35 @@ def fetch_hn_whoishiring():
     return out
 
 
+def fetch_workable_global():
+    """Cross-company search across every company hosted on Workable (Africa/Europe/Americas/Asia alike) - no key needed.
+    Filtered server-side to workplace=remote and day_range capped to the same freshness window as everything else."""
+    day_range = min(30, max(1, -(-config.MAX_WINDOW_HOURS // 24)))
+    out, seen = [], set()
+    for q in ["devops", "site reliability engineer", "platform engineer", "cloud engineer", "kubernetes", "infrastructure engineer"]:
+        token = None
+        for _ in range(3):                                      # up to ~60 results per query term
+            params = {"query": q, "workplace": "remote", "day_range": str(day_range)}
+            if token:
+                params["pageToken"] = token
+            data = get_json("https://jobs.workable.com/api/v1/jobs", params=params, timeout=25)
+            for j in data.get("jobs", []):
+                if j["id"] in seen:
+                    continue
+                seen.add(j["id"])
+                loc = j.get("location") or {}
+                geo = ", ".join(x for x in (loc.get("city"), loc.get("countryName")) if x)
+                company = (j.get("company") or {}).get("title") or ""
+                desc = strip_html(j.get("description") or "") + " " + strip_html(j.get("requirementsSection") or "")
+                out.append(make_job("Workable (global)", "board", j["id"], j.get("title"), company, j.get("url"),
+                                    f"Remote - {geo}" if geo else "Remote", to_dt(j.get("created")), "", desc,
+                                    remote_confirmed=(j.get("workplace") == "remote")))
+            token = data.get("nextPageToken")
+            if not token:
+                break
+    return out
+
+
 def fetch_jsearch():
     """Optional: Google-for-Jobs style aggregation (covers LinkedIn/Indeed/Glassdoor listings). Needs RAPIDAPI_KEY."""
     key = os.environ.get("RAPIDAPI_KEY")
@@ -319,7 +349,32 @@ def _ashby(slug):
     return out
 
 
-ATS = {"greenhouse": _greenhouse, "lever": _lever, "ashby": _ashby}
+def _bamboohr(slug):
+    """List endpoint gives title/location; detail endpoint (fetched only for title matches) gives the date and description."""
+    listing = get_json(f"https://{slug}.bamboohr.com/careers/list", timeout=25).get("result", [])
+    matches = [j for j in listing if title_ok(j.get("jobOpeningName"))]
+
+    def one(j):
+        jid = j.get("id")
+        try:
+            d = get_json(f"https://{slug}.bamboohr.com/careers/{jid}/detail", timeout=25).get("result", {}).get("jobOpening", {})
+        except Exception:
+            d = {}
+        loc = j.get("location") or {}
+        country = (d.get("location") or {}).get("addressCountry") or ""
+        locstr = ", ".join(x for x in (loc.get("city"), loc.get("state"), country) if x)
+        title = j["jobOpeningName"]
+        desc = strip_html(d.get("description") or "")
+        flag = bool(j.get("isRemote")) or str(j.get("locationType")) == "1"
+        return make_job("BambooHR", "ats", f"{slug}-{jid}", title, slug.replace("-", " ").title(),
+                        d.get("jobOpeningShareUrl") or f"https://{slug}.bamboohr.com/careers/{jid}", locstr,
+                        to_dt(d.get("datePosted")), "", desc, remote_confirmed=_remote(locstr, title, desc, flag))
+
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        return list(ex.map(one, matches))
+
+
+ATS = {"greenhouse": _greenhouse, "lever": _lever, "ashby": _ashby, "bamboohr": _bamboohr}
 
 
 def fetch_ats_group(name):
@@ -357,6 +412,6 @@ def fetch_ats_group(name):
 BOARDS = {
     "Remotive": fetch_remotive, "RemoteOK": fetch_remoteok, "We Work Remotely": fetch_wwr,
     "Working Nomads": fetch_workingnomads, "Himalayas": fetch_himalayas, "Jobicy": fetch_jobicy,
-    "Arbeitnow": fetch_arbeitnow,
+    "Arbeitnow": fetch_arbeitnow, "Workable (global search)": fetch_workable_global,
     "Hacker News: Who is hiring": fetch_hn_whoishiring, "JSearch (LinkedIn/Indeed/Glassdoor)": fetch_jsearch,
 }
