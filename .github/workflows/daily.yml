@@ -2,7 +2,7 @@ name: Remote job engine
 
 on:
   schedule:
-    - cron: "0 */5 * * *"   # every 5 hours (00,05,10,15,20 UTC = 03:00, 08:00, 13:00, 18:00, 23:00 Nairobi); GitHub may delay a few minutes
+    - cron: "0 */2 * * *"   # every 2 hours (Nairobi = UTC+3); GitHub may delay a few minutes
     - cron: "0 6 * * 0"     # weekly roundup, Sundays 09:00 Africa/Nairobi
   workflow_dispatch:
     inputs:

@@ -5,6 +5,7 @@ import sys
 import tempfile
 import unittest
 from datetime import datetime, timedelta, timezone
+from unittest.mock import patch
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
 
@@ -53,6 +54,47 @@ class TitleAndEligibility(unittest.TestCase):
         self.assertTrue(sources.to_dt(1761120000).precise)
 
 
+class DeepSearch(unittest.TestCase):
+    def job(self, name, hours, location="Worldwide", desc=DESC):
+        return mk("Ashby", "ats", name, "SRE", name, f"https://example.com/{name}",
+                  location, NOW - timedelta(hours=hours), "", desc)
+
+    def test_backfills_to_ten_without_repeating_or_weakening_filters(self):
+        jobs = [self.job(f"Older{index}", 24 + index) for index in range(12)]
+        fresh = self.job("Fresh", 1)
+        sent = fit.assess(jobs[0], NOW)
+        state = {}
+        st.record(state, sent, NOW, None)
+        jobs += [fresh, dict(fresh), self.job("TooOld", 24 * 15),
+                 self.job("Restricted", 24, "Remote - California"),
+                 self.job("Weak", 24, desc="Python"), self.job("Future", -1)]
+        picks, dropped, stats = jd.select(jobs, state, NOW, NOW - timedelta(hours=2))
+        self.assertEqual(len(picks), 10)
+        self.assertEqual(picks[0]["company"], "Fresh")
+        self.assertEqual(stats["backfilled"], 9)
+        self.assertEqual(stats["shortfall"], 0)
+        self.assertEqual(dropped, [])
+        self.assertFalse({"Older0", "TooOld", "Restricted", "Weak", "Future"} & {p["company"] for p in picks})
+
+    def test_fresh_matches_do_not_trigger_backfill(self):
+        jobs = [self.job(f"Fresh{index}", 1) for index in range(11)] + [self.job("Older", 24)]
+        picks, _, stats = jd.select(jobs, {}, NOW, NOW - timedelta(hours=2))
+        self.assertEqual(len(picks), 11)
+        self.assertEqual(stats["backfilled"], 0)
+
+    def test_reports_shortfall_and_excludes_undated_but_backfills_date_only(self):
+        # Fully undated (no publish time at all) can never be verified, so it's dropped outright. A date-only
+        # publish time (no time of day) can't prove freshness for this run, but is precise enough to backfill with.
+        jobs = [self.job("Older", 24), {**self.job("Undated", 24), "posted": None},
+                {**self.job("DateOnly", 24), "posted": sources.to_dt(NOW.strftime("%Y-%m-%d"))}]
+        picks, _, stats = jd.select(jobs, {}, NOW, NOW - timedelta(hours=2))
+        self.assertEqual(len(picks), 2)
+        self.assertEqual({p["company"] for p in picks}, {"Older", "DateOnly"})
+        self.assertEqual(stats["shortfall"], 8)
+        self.assertEqual(stats["undated"], 1)
+        self.assertEqual(stats["date_only_backfill"], 1)
+
+
 class Runs(unittest.TestCase):
     def setUp(self):
         self.tmp = pathlib.Path(tempfile.mkdtemp())
@@ -64,6 +106,7 @@ class Runs(unittest.TestCase):
     def tearDown(self):
         config.STATE_FILE, config.RESUME_DIR, config.PREVIEW_DIR, jd.send_email, jd.collect, jd.datetime = self._saved
 
+    @patch.object(config, "TARGET_JOBS", 0)
     def test_windows_dedupe_and_empty(self):
         later = NOW + timedelta(hours=5)
 

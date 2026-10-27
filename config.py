@@ -19,6 +19,8 @@ OVERLAP_HOURS = 2           # also accept jobs published up to 2h before the las
 EMAIL_WHEN_EMPTY = False    # no email when nothing new was found
 
 # ---- selection --------------------------------------------------------------
+TARGET_JOBS = 10            # fill short digests with older, unsent matches; 0 disables backfill
+DEEP_SEARCH_DAYS = 21       # oldest posting eligible for backfill
 MIN_SCORE = 60              # minimum fit score to include
 MIN_CORE_SKILLS = 3         # a job must mention at least this many of CORE_SKILLS (2 for short Hacker News posts)
 MAX_JOBS = 40               # cap per email (if exceeded, the overflow is picked up by the next run)

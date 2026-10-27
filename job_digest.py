@@ -65,9 +65,10 @@ def window(state, now):
 
 def select(jobs, state, now, window_start):
     cutoff = window_start - timedelta(hours=config.OVERLAP_HOURS)
-    stats = {"undated": 0, "stale": 0, "truncated": 0}
+    deep_cutoff = min(cutoff, now - timedelta(days=config.DEEP_SEARCH_DAYS)) if config.TARGET_JOBS else cutoff
+    stats = {"undated": 0, "stale": 0, "truncated": 0, "backfilled": 0, "shortfall": 0, "date_only_backfill": 0}
     jobs = sorted(jobs, key=lambda j: RANK.get(j["kind"], 3))
-    seen_run, picks = set(), []
+    seen_run, picks, older = set(), [], []
     for j in jobs:
         if not j["title"] or not sources.title_ok(j["title"]) or not j["remote_confirmed"]:
             continue
@@ -77,13 +78,14 @@ def select(jobs, state, now, window_start):
         seen_run.add(key)
         prev = state.get(key)
         p0 = j["posted"]
-        if not prev and p0 and getattr(p0, "precise", True) and p0 < cutoff:
+        if not prev and p0 and p0 < deep_cutoff:
             stats["stale"] += 1                     # cheap early exit: published before the window
             continue
         a = fit.assess(j, now)
         if not a or a["score"] < config.MIN_SCORE:
             continue
         a["update"] = ""
+        a["backfill"] = False
         if prev:                                    # already sent: only resend on a material change
             if a["salary"] and not prev.get("salary"):
                 a["update"] = "UPDATED: salary now disclosed"
@@ -93,13 +95,34 @@ def select(jobs, state, now, window_start):
                 continue
         else:                                       # new to us: it must have been published inside the window
             p = a["posted"]
-            if not p or not getattr(p, "precise", True):
+            if not p:
                 stats["undated"] += 1               # no verifiable publish time -> cannot prove it is fresh
+                continue
+            if p > now:
+                continue
+            if not getattr(p, "precise", True):
+                # site only gives a date, no time of day: not precise enough to prove it is inside the
+                # freshness window, but day-level precision is good enough to use as a backfill candidate.
+                a["backfill"] = True
+                a["gaps"].append("Posting shows only a date (no time), so exact freshness could not be verified")
+                older.append(a)
+                stats["date_only_backfill"] += 1
+                continue
+            if p < cutoff:
+                a["backfill"] = True
+                older.append(a)
                 continue
         picks.append(a)
     picks.sort(key=lambda x: -x["score"])
-    stats["truncated"] = max(0, len(picks) - config.MAX_JOBS)
-    return picks[:config.MAX_JOBS], picks[config.MAX_JOBS:], stats
+    selected, dropped = picks[:config.MAX_JOBS], picks[config.MAX_JOBS:]
+    older.sort(key=lambda x: (-x["score"], -x["posted"].timestamp()))
+    needed = max(0, min(config.TARGET_JOBS, config.MAX_JOBS) - len(selected))
+    backfill = older[:needed]
+    selected.extend(backfill)
+    stats["backfilled"] = len(backfill)
+    stats["shortfall"] = max(0, config.TARGET_JOBS - len(selected))
+    stats["truncated"] = len(dropped)
+    return selected, dropped, stats
 
 
 def send_email(subject, text, html_body, attachments):

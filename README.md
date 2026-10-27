@@ -1,13 +1,15 @@
 # Remote Job Engine
 
-Searches remote job boards and employer career sites every 5 hours, scores each role against your real resumes,
+Searches remote job boards and employer career sites every 2 hours, scores each role against your real resumes,
 builds a tailored 2-page PDF resume for every match, and emails you only roles published since the last run.
 Every Sunday it emails a roundup of the whole week with a tracker CSV and a zip of all tailored resumes.
 
 ## How a run works
 1. **Window.** First ever run: jobs published in the last 5 hours. Every later run: jobs published since the last
    successful run (plus `OVERLAP_HOURS`, default 2, to catch jobs a feed listed late; already-sent jobs never repeat).
-   Roles with no verifiable publish time (no time of day) are skipped and counted in the email.
+   Roles with no verifiable publish time (no time of day) can't be proven "fresh this run", so they're only used to
+   backfill the digest up to `TARGET_JOBS` (see below), never counted as a brand-new-this-window match; roles with
+   no date at all are skipped and counted in the email.
 2. **Relevance.** Whole-word title match, blocked titles (sales, solutions engineer, security-only, data, language-specific...),
    a core-skill check (>= 3 of your core skills in the description), Kenya-eligibility check (worldwide / Africa / Kenya
    only; US/EU/etc. dropped; unclear -> "Verify eligibility first"), then the 100-point fit score.
@@ -39,12 +41,16 @@ Work outside OneDrive (for example `C:\dev\Rengine`) and run `git pull` before e
 | `resume.py` | Tailoring and PDF generation. |
 | `report.py`, `state.py`, `job_digest.py` | Emails, memory, main program. |
 | `tests/test_engine.py` | Offline tests: `python -m unittest discover -s tests -v` |
-| `.github/workflows/daily.yml` | Schedule: every 5 hours + Sunday roundup. |
+| `.github/workflows/daily.yml` | Schedule: every 2 hours + Sunday roundup. |
 
 ## Common changes
 - **Schedule:** edit the `cron` lines in `.github/workflows/daily.yml` (times are UTC; Nairobi = UTC+3).
 - **Strict 5 hours (no late-listed jobs):** `OVERLAP_HOURS = 0` in `config.py`.
 - **Get an email even when nothing is new:** `EMAIL_WHEN_EMPTY = True`.
+- **Fewer/more roles per digest, or a wider/narrower backfill window:** `TARGET_JOBS` and `DEEP_SEARCH_DAYS` in `config.py`.
+  If genuinely new+matching postings are scarce in a short window, backfill tops the digest up to `TARGET_JOBS` with
+  the best unsent matches from the last `DEEP_SEARCH_DAYS` days; if the digest still comes up short, there simply
+  weren't enough unsent matching roles in that window (loosen `MIN_SCORE`/`MIN_CORE_SKILLS` to allow more, weaker matches).
 - **Add a job board:** append to `sites.json`: `{"name": "Site", "remote_only": true, "urls": ["https://site.com/remote-devops-jobs"]}`.
 - **Add an employer:** add its slug to `companies.json` (from `boards.greenhouse.io/<slug>`, `jobs.lever.co/<slug>`, `jobs.ashbyhq.com/<slug>`).
 - **Job you found yourself:** save the description to `jd.txt`, then
