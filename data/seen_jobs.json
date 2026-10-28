@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-10-28T00:50:53.501588+00:00",
+  "last_run": "2026-10-28T07:46:00.763531+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -361,5 +361,21 @@
   "update": "",
   "variant": "cloud",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-10-27/Aaron_Echosit_Pessoa_Arquiteta_de_Solu_es_Cloud_AWS_S_nior.pdf"
+ },
+ "|seniorsoftwareengineerinfrastructure": {
+  "title": "Senior Software Engineer - Infrastructure",
+  "company": "",
+  "url": "https://www.remotedxb.com/job/senior-software-engineer-infrastructure-octane--2773512",
+  "source": "RemoteDXB",
+  "score": 81,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "No location stated on the listing",
+  "salary": "",
+  "posted": "2026-10-28T04:20:05+00:00",
+  "sent": "2026-10-28T07:46:00.763531+00:00",
+  "update": "",
+  "variant": "cloud",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-10-28/Aaron_Echosit_Senior_Software_Engineer_Infrastructure.pdf"
  }
 }
