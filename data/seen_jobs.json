@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-10-29T01:26:34.668056+00:00",
+  "last_run": "2026-10-29T07:51:58.027010+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -40,7 +40,9 @@
    "https://workfromanywhere.app/jobs/senior-software-engineer-data-platform-at-sentilink",
    "https://workfromanywhere.app/jobs/software-engineer-ii-cloud-applications-at-temporal",
    "https://workfromanywhere.app/jobs/staff-software-engineer-backend-at-stream",
-   "https://nodesk.co/remote-jobs/cohere-global-public-policy-manager-compute-infrastructure-sovereign-ai/"
+   "https://nodesk.co/remote-jobs/cohere-global-public-policy-manager-compute-infrastructure-sovereign-ai/",
+   "https://jobspresso.co/job/senior-database-reliability-engineer/",
+   "https://jobspresso.co/job/sr-engineer-infrastructure-security-2/"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
