@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-10-29T20:45:30.615186+00:00",
+  "last_run": "2026-10-30T01:28:05.758006+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -447,5 +447,37 @@
   "update": "",
   "variant": "cloud",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-10-29/Aaron_Echosit_Intetics_Senior_DevOps_Engineer_Short_term.pdf"
+ },
+ "bitovi|backendplatformdeveloperconsultanttemporalkubernetes": {
+  "title": "Backend / Platform Developer Consultant (Temporal & Kubernetes)",
+  "company": "Bitovi",
+  "url": "https://weworkremotely.com/remote-jobs/bitovi-backend-platform-developer-consultant-temporal-kubernetes",
+  "source": "WeWorkRemotely",
+  "score": 85,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "Listed 'Anywhere in the World' but description mentions a location/work-authorization limit",
+  "salary": "$120,000 to $190,000",
+  "posted": "2026-10-29T22:31:03+00:00",
+  "sent": "2026-10-30T01:28:05.758006+00:00",
+  "update": "",
+  "variant": "platform",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-10-30/Aaron_Echosit_Bitovi_Backend_Platform_Developer_Consultant_Temporal_Kubernetes.pdf"
+ },
+ "|devopsengineer": {
+  "title": "DevOps engineer",
+  "company": "",
+  "url": "https://www.remotedxb.com/job/devops-engineer-blue-pearl-pty-ltd--2795801",
+  "source": "RemoteDXB",
+  "score": 82,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "No location stated on the listing",
+  "salary": "",
+  "posted": "2026-10-30T00:20:05+00:00",
+  "sent": "2026-10-30T01:28:05.758006+00:00",
+  "update": "",
+  "variant": "devops",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-10-30/Aaron_Echosit_DevOps_engineer.pdf"
  }
 }
