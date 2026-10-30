@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-10-30T07:55:05.701073+00:00",
+  "last_run": "2026-10-30T14:42:54.575262+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -46,7 +46,34 @@
    "https://workfromanywhere.app/jobs/senior-engineering-manager-observability-engineering-at-temporal",
    "https://workfromanywhere.app/jobs/security-engineer-infrastructure-security-at-livekit",
    "https://workfromanywhere.app/jobs/engineering-manager-control-plane-platform-engineer-at-clickhouse",
-   "https://workfromanywhere.app/jobs/langfuse-senior-cloud-infra-engineer-at-clickhouse"
+   "https://workfromanywhere.app/jobs/langfuse-senior-cloud-infra-engineer-at-clickhouse",
+   "https://dailyremote.com/remote-job/dev-ops-5739662",
+   "https://dailyremote.com/remote-job/sap-ns-2-senior-linux-dev-ops-administrator-5846098",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-5842945",
+   "https://dailyremote.com/remote-job/sap-ns-2-senior-linux-dev-ops-administrator-5841538",
+   "https://dailyremote.com/remote-job/principal-dev-ops-engineer-5846772",
+   "https://dailyremote.com/remote-job/dev-ops-5558252",
+   "https://dailyremote.com/remote-job/dev-ops-5213838",
+   "https://jobspresso.co/job/senior-software-engineer-ai-developer-experience-2/",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-5846974",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-5841652",
+   "https://dailyremote.com/remote-job/cloud-dev-ops-engineer-senior-5843651",
+   "https://jobspresso.co/job/principal-software-engineer-site-reliability-agentforce-ops/",
+   "https://dailyremote.com/remote-job/consultor-consultora-dev-ops-5843568",
+   "https://dailyremote.com/remote-job/ai-dev-ops-and-sre-specialist-5846336",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-5841560",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-5845791",
+   "https://dailyremote.com/remote-job/dev-ops-4777636",
+   "https://dailyremote.com/remote-job/enterprise-web-and-dev-ops-architect-it-jh-cloud-virtualization-services-5845704",
+   "https://dailyremote.com/remote-job/dev-ops-5704179",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-5844358",
+   "https://dailyremote.com/remote-job/lead-architect-solution-architect-dev-ops-technologies-with-german-language-m-f-d-5842053",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-iv-remote-5842449",
+   "https://dailyremote.com/remote-job/senior-dev-ops-infrastructure-engineer-5845586",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-5843091",
+   "https://dailyremote.com/remote-job/dev-ops-go-platform-engineer-5844532",
+   "https://dailyremote.com/remote-job/devops-engineer-remoto-espana-5845305",
+   "https://dailyremote.com/remote-job/software-engineer-dev-ops-5846977"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -528,5 +555,21 @@
   "update": "",
   "variant": "cloud",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-10-30/Aaron_Echosit_Carrot_Sr_IT_Systems_Engineer.pdf"
+ },
+ "|cloudplatformengineer": {
+  "title": "Cloud Platform Engineer",
+  "company": "",
+  "url": "https://www.remotedxb.com/job/cloud-platform-engineer-supabase--2800535",
+  "source": "RemoteDXB",
+  "score": 78,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "No location stated on the listing",
+  "salary": "",
+  "posted": "2026-10-30T08:20:06+00:00",
+  "sent": "2026-10-30T14:42:54.575262+00:00",
+  "update": "",
+  "variant": "cloud",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-10-30/Aaron_Echosit_Cloud_Platform_Engineer.pdf"
  }
 }
