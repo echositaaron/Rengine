@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-10-31T07:48:01.318657+00:00",
+  "last_run": "2026-10-31T14:05:53.250974+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -78,7 +78,8 @@
    "https://dailyremote.com/remote-job/senior-azure-dev-ops-engineer-5847069",
    "https://dailyremote.com/remote-job/dev-ops-engineer-5847542",
    "https://dailyremote.com/remote-job/dev-ops-sre-engineer-5847374",
-   "https://dailyremote.com/remote-job/dev-ops-engineer-5847413"
+   "https://dailyremote.com/remote-job/dev-ops-engineer-5847413",
+   "https://jobspresso.co/job/infrastructure-engineer-gpu-compute/"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -576,5 +577,21 @@
   "update": "",
   "variant": "cloud",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-10-30/Aaron_Echosit_Cloud_Platform_Engineer.pdf"
+ },
+ "supabase|softwareengineeraitoolinginfrastructure": {
+  "title": "Software Engineer - AI Tooling Infrastructure",
+  "company": "Supabase",
+  "url": "https://jobs.ashbyhq.com/supabase/fb0b563a-e541-43fd-8555-9eb6473aaa11",
+  "source": "Ashby",
+  "score": 96,
+  "priority": "Apply now",
+  "status": "ok",
+  "elig": "Worldwide (Remote, Global)",
+  "salary": "",
+  "posted": "2026-10-31T08:47:34.051000+00:00",
+  "sent": "2026-10-31T14:05:53.250974+00:00",
+  "update": "",
+  "variant": "sre",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-10-31/Aaron_Echosit_Supabase_Software_Engineer_AI_Tooling_Infrastructure.pdf"
  }
 }
