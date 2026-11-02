@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-02T08:39:31.367061+00:00",
+  "last_run": "2026-11-02T19:54:32.125373+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -96,7 +96,15 @@
    "https://dailyremote.com/remote-job/senior-dev-ops-engineer-microsoft-azure-5850122",
    "https://jobspresso.co/job/senior-engineer-database-reliability/",
    "https://dailyremote.com/remote-job/senior-dev-ops-engineer-5850488",
-   "https://dailyremote.com/remote-job/associate-devops-engineer-5850489"
+   "https://dailyremote.com/remote-job/associate-devops-engineer-5850489",
+   "https://dailyremote.com/remote-job/c-c-developer-dev-ops-engineer-5851762",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-5851624",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-iv-us-5851939",
+   "https://dailyremote.com/remote-job/senior-software-engineer-dev-ops-cloud-hybrid-5853270",
+   "https://dailyremote.com/remote-job/tecnico-a-de-sistemas-open-shift-kubernetes-cloud-y-dev-ops-remoto-5851238",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-5851322",
+   "https://dailyremote.com/remote-job/application-engineer-dev-ops-engineering-tools-5853351",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-azure-w-m-d-5851766"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -722,5 +730,37 @@
   "update": "",
   "variant": "platform",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-02/Aaron_Echosit_Principal_Kubernetes_Engineer.pdf"
+ },
+ "simpleanalytics|devopsengineer": {
+  "title": "DevOps Engineer",
+  "company": "Simple Analytics",
+  "url": "https://news.ycombinator.com/item?id=50338732",
+  "source": "HN-WhoIsHiring",
+  "score": 82,
+  "priority": "Apply now",
+  "status": "ok",
+  "elig": "Worldwide (REMOTE (worldwide, any timezone))",
+  "salary": "",
+  "posted": "2026-11-02T16:01:43+00:00",
+  "sent": "2026-11-02T19:54:32.125373+00:00",
+  "update": "",
+  "variant": "devops",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-02/Aaron_Echosit_Simple_Analytics_DevOps_Engineer.pdf"
+ },
+ "|directorinfrastructuredataplatforms": {
+  "title": "Director, Infrastructure & Data Platforms",
+  "company": "",
+  "url": "https://www.remotedxb.com/job/director-infrastructure-data-platforms-immunovant-inc--2938300",
+  "source": "RemoteDXB",
+  "score": 72,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "No location stated on the listing",
+  "salary": "",
+  "posted": "2026-11-02T19:00:11+00:00",
+  "sent": "2026-11-02T19:54:32.125373+00:00",
+  "update": "",
+  "variant": "cloud",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-02/Aaron_Echosit_Director_Infrastructure_Data_Platforms.pdf"
  }
 }
