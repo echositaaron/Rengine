@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-05T17:47:02.497836+00:00",
+  "last_run": "2026-11-05T23:04:29.643179+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -190,7 +190,15 @@
    "https://dailyremote.com/remote-job/senior-dev-ops-engineer-5870932",
    "https://dailyremote.com/remote-job/lead-dev-ops-engineer-5870727",
    "https://dailyremote.com/remote-job/senior-dev-ops-engineer-5871204",
-   "https://jobspresso.co/job/research-engineer-data-infrastructure/"
+   "https://jobspresso.co/job/research-engineer-data-infrastructure/",
+   "https://dailyremote.com/remote-job/lead-engineer-dev-ops-4-c-5873075",
+   "https://dailyremote.com/remote-job/remote-senior-dev-ops-engineer-5874358",
+   "https://dailyremote.com/remote-job/senior-dev-ops-delivery-consultant-aws-professional-services-aws-wwco-pro-serve-ent-segment-country-teams-shared-delivery-teams-var-5872739",
+   "https://dailyremote.com/remote-job/staff-dev-ops-engineer-5872435",
+   "https://dailyremote.com/remote-job/lead-software-development-dev-ops-5873921",
+   "https://dailyremote.com/remote-job/dev-ops-azure-cloud-engineer-5872639",
+   "https://dailyremote.com/remote-job/remote-dev-ops-engineer-5874352",
+   "https://workfromanywhere.app/jobs/staff-gtm-systems-engineer-at-livekit"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -1120,5 +1128,37 @@
   "update": "",
   "variant": "sre",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-05/Aaron_Echosit_Staff_Software_Engineer_SRE.pdf"
+ },
+ "|seniorplatformengineer": {
+  "title": "Senior Platform Engineer",
+  "company": "",
+  "url": "https://www.remotedxb.com/job/senior-platform-engineer-growthloop--3297878",
+  "source": "RemoteDXB",
+  "score": 75,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "No location stated on the listing",
+  "salary": "",
+  "posted": "2026-11-05T23:00:21+00:00",
+  "sent": "2026-11-05T23:04:29.643179+00:00",
+  "update": "",
+  "variant": "sre",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-06/Aaron_Echosit_Senior_Platform_Engineer.pdf"
+ },
+ "|principalplatformengineer": {
+  "title": "Principal Platform Engineer",
+  "company": "",
+  "url": "https://www.remotedxb.com/job/principal-platform-engineer-phizenix--3297644",
+  "source": "RemoteDXB",
+  "score": 72,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "No location stated on the listing",
+  "salary": "",
+  "posted": "2026-11-05T23:00:21+00:00",
+  "sent": "2026-11-05T23:04:29.643179+00:00",
+  "update": "",
+  "variant": "platform",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-06/Aaron_Echosit_Principal_Platform_Engineer.pdf"
  }
 }
