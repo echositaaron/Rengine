@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-06T04:23:46.935075+00:00",
+  "last_run": "2026-11-06T13:29:51.473095+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -205,7 +205,12 @@
    "https://dailyremote.com/remote-job/dev-ops-engineer-5876208",
    "https://dailyremote.com/remote-job/platform-admin-application-devops-5875805",
    "https://dailyremote.com/remote-job/dev-ops-lead-remote-latam-5875488",
-   "https://dailyremote.com/remote-job/delivery-consultant-dev-ops-aws-professional-services-5876130"
+   "https://dailyremote.com/remote-job/delivery-consultant-dev-ops-aws-professional-services-5876130",
+   "https://dailyremote.com/remote-job/mso-senior-dev-ops-engineer-kubernetes-6-month-contract-5877174",
+   "https://dailyremote.com/remote-job/director-of-it-support-dev-ops-5877282",
+   "https://workfromanywhere.app/jobs/member-of-the-technical-staff-software-engineering-at-tolmo",
+   "https://jobspresso.co/job/site-reliability-engineer/",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-open-stack-team-5877152"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -1183,5 +1188,69 @@
   "update": "",
   "variant": "cloud",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-06/Aaron_Echosit_CivilGrid_Senior_Staff_Infrastructure_Security_Engineer.pdf"
+ },
+ "chesscom|sitereliabilityengineer": {
+  "title": "Site Reliability Engineer",
+  "company": "Chess.com",
+  "url": "https://jobspresso.co/job/site-reliability-engineer/",
+  "source": "Jobspresso",
+  "score": 97,
+  "priority": "Apply now",
+  "status": "ok",
+  "elig": "Worldwide (Remote - Worldwide)",
+  "salary": "",
+  "posted": "2026-11-06T02:42:58-05:00",
+  "sent": "2026-11-06T13:29:51.473095+00:00",
+  "update": "",
+  "variant": "sre",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-06/Aaron_Echosit_Chess_com_Site_Reliability_Engineer.pdf"
+ },
+ "tetheroperationslimited|devopsengineer100remote": {
+  "title": "DevOps Engineer (100% remote)",
+  "company": "Tether Operations Limited",
+  "url": "https://himalayas.app/companies/tether-operations-limited/jobs/devops-engineer-100-remote-5368685603?utm_source=api",
+  "source": "Himalayas",
+  "score": 82,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "Listed for a specific African country (Nigeria); Kenya not named",
+  "salary": "",
+  "posted": "2026-11-06T12:35:52+00:00",
+  "sent": "2026-11-06T13:29:51.473095+00:00",
+  "update": "",
+  "variant": "devops",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-06/Aaron_Echosit_Tether_Operations_Limited_DevOps_Engineer_100_remote.pdf"
+ },
+ "|platformengineercompute": {
+  "title": "Platform Engineer - Compute",
+  "company": "",
+  "url": "https://www.remotedxb.com/job/platform-engineer-compute-supabase--3349372",
+  "source": "RemoteDXB",
+  "score": 82,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "No location stated on the listing",
+  "salary": "",
+  "posted": "2026-11-06T07:00:14+00:00",
+  "sent": "2026-11-06T13:29:51.473095+00:00",
+  "update": "",
+  "variant": "platform",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-06/Aaron_Echosit_Platform_Engineer_Compute.pdf"
+ },
+ "|infrastructureengineer": {
+  "title": "Infrastructure Engineer",
+  "company": "",
+  "url": "https://www.remotedxb.com/job/infrastructure-engineer-atomic-industries--3379065",
+  "source": "RemoteDXB",
+  "score": 81,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "No location stated on the listing",
+  "salary": "",
+  "posted": "2026-11-06T13:20:09+00:00",
+  "sent": "2026-11-06T13:29:51.473095+00:00",
+  "update": "",
+  "variant": "infrastructure",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-06/Aaron_Echosit_Infrastructure_Engineer.pdf"
  }
 }
