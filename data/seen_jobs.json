@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-05T23:04:29.643179+00:00",
+  "last_run": "2026-11-06T04:23:46.935075+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -198,7 +198,14 @@
    "https://dailyremote.com/remote-job/lead-software-development-dev-ops-5873921",
    "https://dailyremote.com/remote-job/dev-ops-azure-cloud-engineer-5872639",
    "https://dailyremote.com/remote-job/remote-dev-ops-engineer-5874352",
-   "https://workfromanywhere.app/jobs/staff-gtm-systems-engineer-at-livekit"
+   "https://workfromanywhere.app/jobs/staff-gtm-systems-engineer-at-livekit",
+   "https://dailyremote.com/remote-job/senior-staff-dev-ops-engineer-high-performance-solutions-5876157",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-1-5875779",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-with-big-data-skills-5876163",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-5876208",
+   "https://dailyremote.com/remote-job/platform-admin-application-devops-5875805",
+   "https://dailyremote.com/remote-job/dev-ops-lead-remote-latam-5875488",
+   "https://dailyremote.com/remote-job/delivery-consultant-dev-ops-aws-professional-services-5876130"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -1160,5 +1167,21 @@
   "update": "",
   "variant": "platform",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-06/Aaron_Echosit_Principal_Platform_Engineer.pdf"
+ },
+ "civilgrid|seniorstaffinfrastructuresecurityengineer": {
+  "title": "Senior Staff Infrastructure & Security Engineer",
+  "company": "CivilGrid",
+  "url": "https://remoteOK.com/remote-jobs/remote-senior-staff-infrastructure-security-engineer-civilgrid-1137687",
+  "source": "RemoteOK",
+  "score": 76,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "Unclear location: Boston",
+  "salary": "USD 137,318-192,960",
+  "posted": "2026-11-05T00:00:04+00:00",
+  "sent": "2026-11-06T04:23:46.935075+00:00",
+  "update": "",
+  "variant": "cloud",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-06/Aaron_Echosit_CivilGrid_Senior_Staff_Infrastructure_Security_Engineer.pdf"
  }
 }
