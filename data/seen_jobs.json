@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-07T01:28:26.199770+00:00",
+  "last_run": "2026-11-07T08:03:52.526166+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -225,7 +225,10 @@
    "https://dailyremote.com/remote-job/senior-dev-ops-engineer-5880512",
    "https://dailyremote.com/remote-job/dev-ops-engineer-aws-ingles-avanzado-home-office-5881819",
    "https://dailyremote.com/remote-job/sr-identity-engineer-google-cloud-and-dev-ops-5881957",
-   "https://dailyremote.com/remote-job/senior-site-reliability-engineer-dev-ops-5881369"
+   "https://dailyremote.com/remote-job/senior-site-reliability-engineer-dev-ops-5881369",
+   "https://workfromanywhere.app/jobs/senior-data-engineer-at-mux",
+   "https://dailyremote.com/remote-job/sr-dev-ops-engineer-5882680",
+   "https://workfromanywhere.app/jobs/staff-software-engineer-infrastructure-foundations-at-temporal"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
