@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-10T11:57:54.628350+00:00",
+  "last_run": "2026-11-10T19:21:14.782409+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -261,7 +261,19 @@
    "https://dailyremote.com/remote-job/lead-dev-ops-engineer-5890502",
    "https://dailyremote.com/remote-job/sw-engineer-dev-ops-5890165",
    "https://dailyremote.com/remote-job/lead-dev-ops-engineer-5890736",
-   "https://dailyremote.com/remote-job/dev-ops-senior-apache-kafka-5891124"
+   "https://dailyremote.com/remote-job/dev-ops-senior-apache-kafka-5891124",
+   "https://workfromanywhere.app/jobs/staff-software-engineer-compute-temporal-cloud-at-temporal",
+   "https://dailyremote.com/remote-job/dev-ops-software-engineer-iii-5893609",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-5893442",
+   "https://dailyremote.com/remote-job/11136-azure-dev-ops-lead-alm-program-delivery-specialist-5894088",
+   "https://dailyremote.com/remote-job/mission-freelance-expert-dev-ops-cloudflare-one-5893003",
+   "https://dailyremote.com/remote-job/open-text-platform-dev-ops-engineer-remoto-espana-5894274",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-luma-5893053",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-vn-5894609",
+   "https://dailyremote.com/remote-job/job-32642-senior-cloud-dev-ops-developer-brazil-5894779",
+   "https://dailyremote.com/remote-job/cloud-dev-ops-sre-engineer-5894195",
+   "https://dailyremote.com/remote-job/dev-ops-specialist-junior-5892931",
+   "https://dailyremote.com/remote-job/middle-sre-dev-ops-engineer-5893428"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -1399,5 +1411,21 @@
   "update": "",
   "variant": "devops",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-09/Aaron_Echosit_Replit_Staff_Software_Engineer_Financial_Infrastructure.pdf"
+ },
+ "orkes|sitereliabilityengineer": {
+  "title": "Site Reliability Engineer",
+  "company": "Orkes",
+  "url": "https://jobicy.com/jobs/161022-site-reliability-engineer-6",
+  "source": "Jobicy",
+  "score": 85,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "EMEA - Kenya not explicitly named (EMEA,  Australia)",
+  "salary": "USD 125,000-250,000",
+  "posted": "2026-11-10T09:09:27+00:00",
+  "sent": "2026-11-10T19:21:14.782409+00:00",
+  "update": "",
+  "variant": "sre",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-10/Aaron_Echosit_Orkes_Site_Reliability_Engineer.pdf"
  }
 }
