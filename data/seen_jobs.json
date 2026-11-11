@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-10T19:21:14.782409+00:00",
+  "last_run": "2026-11-11T00:19:53.521970+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -273,7 +273,17 @@
    "https://dailyremote.com/remote-job/job-32642-senior-cloud-dev-ops-developer-brazil-5894779",
    "https://dailyremote.com/remote-job/cloud-dev-ops-sre-engineer-5894195",
    "https://dailyremote.com/remote-job/dev-ops-specialist-junior-5892931",
-   "https://dailyremote.com/remote-job/middle-sre-dev-ops-engineer-5893428"
+   "https://dailyremote.com/remote-job/middle-sre-dev-ops-engineer-5893428",
+   "https://dailyremote.com/remote-job/sr-dev-ops-engineer-remote-if-in-mn-then-hybrid-5896768",
+   "https://dailyremote.com/remote-job/software-engineer-dev-ops-bitnomial-5896974",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-5895470",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-5895365",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-5897038",
+   "https://dailyremote.com/remote-job/39040-azure-dev-ops-sre-engineer-5897257",
+   "https://dailyremote.com/remote-job/39125-dev-ops-sre-engineer-5896722",
+   "https://dailyremote.com/remote-job/staff-platform-engineer-infra-dev-ops-5896183",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-5897344",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-aws-5896042"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -1427,5 +1437,37 @@
   "update": "",
   "variant": "sre",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-10/Aaron_Echosit_Orkes_Site_Reliability_Engineer.pdf"
+ },
+ "knack|cloudengineer": {
+  "title": "Cloud Engineer",
+  "company": "Knack",
+  "url": "https://weworkremotely.com/remote-jobs/knack-cloud-engineer-1",
+  "source": "WeWorkRemotely",
+  "score": 97,
+  "priority": "Apply now",
+  "status": "ok",
+  "elig": "Worldwide (Anywhere in the World)",
+  "salary": "",
+  "posted": "2026-11-10T22:32:18+00:00",
+  "sent": "2026-11-11T00:19:53.521970+00:00",
+  "update": "",
+  "variant": "cloud",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-11/Aaron_Echosit_Knack_Cloud_Engineer.pdf"
+ },
+ "odin|seniorcloudinfraengineer": {
+  "title": "Senior Cloud Infra Engineer",
+  "company": "Odin",
+  "url": "https://news.ycombinator.com/item?id=50447035",
+  "source": "HN-WhoIsHiring",
+  "score": 60,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "Unclear location: Remote",
+  "salary": "",
+  "posted": "2026-11-10T22:14:01+00:00",
+  "sent": "2026-11-11T00:19:53.521970+00:00",
+  "update": "",
+  "variant": "cloud",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-11/Aaron_Echosit_Odin_Senior_Cloud_Infra_Engineer.pdf"
  }
 }
