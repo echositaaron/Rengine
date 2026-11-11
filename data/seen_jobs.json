@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-11T00:19:53.521970+00:00",
+  "last_run": "2026-11-11T08:40:45.997744+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -283,7 +283,17 @@
    "https://dailyremote.com/remote-job/39125-dev-ops-sre-engineer-5896722",
    "https://dailyremote.com/remote-job/staff-platform-engineer-infra-dev-ops-5896183",
    "https://dailyremote.com/remote-job/senior-dev-ops-engineer-5897344",
-   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-aws-5896042"
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-aws-5896042",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-5898841",
+   "https://dailyremote.com/remote-job/senior-staff-dev-ops-engineer-5897657",
+   "https://dailyremote.com/remote-job/senior-staff-dev-ops-engineer-flow-5897647",
+   "https://dailyremote.com/remote-job/senior-staff-dev-ops-engineer-flow-5897653",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-5898017",
+   "https://dailyremote.com/remote-job/principal-dev-ops-engineer-5898167",
+   "https://dailyremote.com/remote-job/senior-staff-dev-ops-engineer-flow-5897648",
+   "https://dailyremote.com/remote-job/dev-ops-lead-5898019",
+   "https://dailyremote.com/remote-job/senior-staff-dev-ops-engineer-5897664",
+   "https://dailyremote.com/remote-job/senior-staff-dev-ops-engineer-flow-5897652"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -1469,5 +1479,21 @@
   "update": "",
   "variant": "cloud",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-11/Aaron_Echosit_Odin_Senior_Cloud_Infra_Engineer.pdf"
+ },
+ "|sreproductionoperationsengineer": {
+  "title": "SRE/Production Operations Engineer",
+  "company": "",
+  "url": "https://www.remotedxb.com/job/sreproduction-operations-engineer-cerebra-consulting-inc--3483376",
+  "source": "RemoteDXB",
+  "score": 80,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "No location stated on the listing",
+  "salary": "",
+  "posted": "2026-11-11T08:00:10+00:00",
+  "sent": "2026-11-11T08:40:45.997744+00:00",
+  "update": "",
+  "variant": "sre",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-11/Aaron_Echosit_SRE_Production_Operations_Engineer.pdf"
  }
 }
