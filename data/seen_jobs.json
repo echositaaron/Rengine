@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-12T14:20:22.171045+00:00",
+  "last_run": "2026-11-12T21:58:39.820950+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -360,7 +360,21 @@
    "https://dailyremote.com/remote-job/hiring-amazon-connect-and-aws-dev-ops-engineer-pan-india-5904349",
    "https://dailyremote.com/remote-job/dev-ops-engineer-5904147",
    "https://workfromanywhere.app/jobs/copy-of-senior-software-engineer-cloud-partner-integrations-at-clickhouse",
-   "https://dailyremote.com/remote-job/dev-ops-senior-rf-systems-engineer-5904175"
+   "https://dailyremote.com/remote-job/dev-ops-senior-rf-systems-engineer-5904175",
+   "https://trulyremotework.com/jobs/ai-infrastructure-engineer-vcluster-labs",
+   "https://dailyremote.com/remote-job/dev-ops-technical-lead-with-german-5904963",
+   "https://dailyremote.com/remote-job/arquitecto-a-net-dev-ops-5904966",
+   "https://dailyremote.com/remote-job/aws-senior-dev-ops-engineer-5906023",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-fin-ops-5907039",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-eadv-261006-5907108",
+   "https://workfromanywhere.app/jobs/software-engineer-web-infrastructure-at-notion",
+   "https://dailyremote.com/remote-job/sr-dev-ops-engineer-remote-portugal-5906262",
+   "https://dailyremote.com/remote-job/sr-devops-engineer-5906384",
+   "https://dailyremote.com/remote-job/principal-dev-ops-engineer-ai-ml-infrastructure-remote-canada-5905643",
+   "https://dailyremote.com/remote-job/dev-ops-automation-engineer-all-genders-5905262",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-5905534",
+   "https://remotejobsglobal.com/job/software-engineering-manager-cloud-engineering-at-mozilla-8369515",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-open-stack-team-5905524"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -1818,5 +1832,21 @@
   "update": "",
   "variant": "platform",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-12/Aaron_Echosit_Canonical_Software_Engineer_Python_Container_Images.pdf"
+ },
+ "m365consult|senioraifullstackengineerdevopstechnicalleadership": {
+  "title": "Senior AI & Full-Stack Engineer - DevOps & Technical Leadership",
+  "company": "M365Consult",
+  "url": "https://himalayas.app/companies/m365consult/jobs/senior-ai-full-stack-engineer-devops-technical-leadership-226048140?utm_source=api",
+  "source": "Himalayas",
+  "score": 77,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "Listed for a specific African country (Nigeria); Kenya not named",
+  "salary": "",
+  "posted": "2026-11-12T20:34:12+00:00",
+  "sent": "2026-11-12T21:58:39.820950+00:00",
+  "update": "",
+  "variant": "devops",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-13/Aaron_Echosit_M365Consult_Senior_AI_Full_Stack_Engineer_DevOps_Technical_Leadership.pdf"
  }
 }
