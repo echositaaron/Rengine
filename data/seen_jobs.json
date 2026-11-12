@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-12T05:01:39.547645+00:00",
+  "last_run": "2026-11-12T14:20:22.171045+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -354,7 +354,13 @@
    "https://trulyremotework.com/jobs/staff-platform-engineer-remote-aktos",
    "https://dailyremote.com/remote-job/dev-ops-engineer-5903296",
    "https://trulyremotework.com/jobs/senior-site-reliability-gitops-engineer-canonical",
-   "https://trulyremotework.com/jobs/senior-platform-engineer-human-data-anyone-ai"
+   "https://trulyremotework.com/jobs/senior-platform-engineer-human-data-anyone-ai",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-m-f-d-5903876",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-open-stack-team-5903864",
+   "https://dailyremote.com/remote-job/hiring-amazon-connect-and-aws-dev-ops-engineer-pan-india-5904349",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-5904147",
+   "https://workfromanywhere.app/jobs/copy-of-senior-software-engineer-cloud-partner-integrations-at-clickhouse",
+   "https://dailyremote.com/remote-job/dev-ops-senior-rf-systems-engineer-5904175"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -1796,5 +1802,21 @@
   "update": "",
   "variant": "platform",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-12/Aaron_Echosit_Aktos_Staff_Platform_Engineer_Remote.pdf"
+ },
+ "canonical|softwareengineerpythoncontainerimages": {
+  "title": "Software Engineer - Python - Container Images",
+  "company": "Canonical",
+  "url": "https://jobicy.com/jobs/150364-software-engineer-python-container-images",
+  "source": "Jobicy",
+  "score": 77,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "EMEA - Kenya not explicitly named (APAC,  EMEA,  LATAM,  Canada,  USA)",
+  "salary": "",
+  "posted": "2026-11-12T02:51:25+00:00",
+  "sent": "2026-11-12T14:20:22.171045+00:00",
+  "update": "",
+  "variant": "platform",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-12/Aaron_Echosit_Canonical_Software_Engineer_Python_Container_Images.pdf"
  }
 }
