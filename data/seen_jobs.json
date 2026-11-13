@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-12T21:58:39.820950+00:00",
+  "last_run": "2026-11-13T02:27:06.869871+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -374,7 +374,12 @@
    "https://dailyremote.com/remote-job/dev-ops-automation-engineer-all-genders-5905262",
    "https://dailyremote.com/remote-job/dev-ops-engineer-5905534",
    "https://remotejobsglobal.com/job/software-engineering-manager-cloud-engineering-at-mozilla-8369515",
-   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-open-stack-team-5905524"
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-open-stack-team-5905524",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-advertising-industry-5907372",
+   "https://trulyremotework.com/jobs/platform-engineer-managed-postgres-supabase",
+   "https://dailyremote.com/remote-job/dev-ops-infrastructure-engineer-5908596",
+   "https://remotejobsglobal.com/job/senior-systems-infrastructure-engineer-at-buzzsolutions-54809590",
+   "https://dailyremote.com/remote-job/senior-cloud-and-dev-ops-engineer-5908132"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -1848,5 +1853,37 @@
   "update": "",
   "variant": "devops",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-13/Aaron_Echosit_M365Consult_Senior_AI_Full_Stack_Engineer_DevOps_Technical_Leadership.pdf"
+ },
+ "mongodb|managerclientplatformengineering": {
+  "title": "Manager, Client Platform Engineering",
+  "company": "Mongodb",
+  "url": "https://www.mongodb.com/careers/job/?gh_jid=8384766",
+  "source": "Greenhouse",
+  "score": 71,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "Unclear location: Los Angeles; Phoenix; San Diego; Seattle",
+  "salary": "",
+  "posted": "2026-11-12T20:14:50-05:00",
+  "sent": "2026-11-13T02:27:06.869871+00:00",
+  "update": "",
+  "variant": "devops",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-13/Aaron_Echosit_Mongodb_Manager_Client_Platform_Engineering.pdf"
+ },
+ "|softwareengineeringmanagercloudengineering": {
+  "title": "Software Engineering Manager, Cloud Engineering",
+  "company": "",
+  "url": "https://www.remotedxb.com/job/software-engineering-manager-cloud-engineering-mozilla-foundation--3533615",
+  "source": "RemoteDXB",
+  "score": 71,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "No location stated on the listing",
+  "salary": "",
+  "posted": "2026-11-13T00:25:39+00:00",
+  "sent": "2026-11-13T02:27:06.869871+00:00",
+  "update": "",
+  "variant": "cloud",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-13/Aaron_Echosit_Software_Engineering_Manager_Cloud_Engineering.pdf"
  }
 }
