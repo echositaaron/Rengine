@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-13T11:44:54.914282+00:00",
+  "last_run": "2026-11-13T18:59:10.464661+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -385,7 +385,19 @@
    "https://dailyremote.com/remote-job/associate-dev-ops-engineer-ii-5908753",
    "https://trulyremotework.com/jobs/senior-software-engineer-developer-experience-ai-platform-team-classdojo",
    "https://dailyremote.com/remote-job/dev-ops-engineer-i-5908752",
-   "https://workfromanywhere.app/jobs/senior-design-systems-engineer-at-ramp"
+   "https://workfromanywhere.app/jobs/senior-design-systems-engineer-at-ramp",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-5910200",
+   "https://jobspresso.co/job/director-of-data-and-analytics-self-service-cloud/",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-luma-5909839",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-nrs-5909338",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-5910199",
+   "https://dailyremote.com/remote-job/staff-dev-ops-engineer-europe-5910026",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-azure-5910139",
+   "https://dailyremote.com/remote-job/aws-dev-ops-engineer-5910371",
+   "https://trulyremotework.com/jobs/software-engineering-manager-cloud-engineering-mozilla",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-luma-5909822",
+   "https://dailyremote.com/remote-job/devops-azure-docker-and-kubernetes-5910008",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-5909825"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -1955,5 +1967,21 @@
   "update": "",
   "variant": "platform",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-13/Aaron_Echosit_ClassDojo_Senior_Software_Engineer_Developer_Experience_AI_Platform_team.pdf"
+ },
+ "mozilla|softwareengineeringmanagercloudengineering": {
+  "title": "Software Engineering Manager, Cloud Engineering",
+  "company": "Mozilla",
+  "url": "https://trulyremotework.com/jobs/software-engineering-manager-cloud-engineering-mozilla",
+  "source": "Truly Remote Work",
+  "score": 86,
+  "priority": "Apply",
+  "status": "ok",
+  "elig": "Open to Kenya/Africa (Remote - Andorra, United Arab Emirates, Afghanistan, Antigua & Barbuda, Albania, Armenia, Angola, Argentina, Austria, Australia, Azerbaijan, Bosnia & Herzegovina, Barbados, Bangladesh, Belgium, Burkina Faso, Bulgaria, Bahrain, Burundi, Benin, Brunei, Bolivia, Brazil, Bahamas, Bhutan, Botswana, Belize, Canada, Congo - Kinshasa, Central African Republic, Congo - Brazzaville, Switzerland, CÃ´te dâIvoire, Chile, Cameroon, China, Colombia, Costa Rica, Cape Verde, Cyprus, Czechia, Germany, Djibouti, Denmark, Dominica, Dominican Republic, Algeria, Ecuador, Estonia, Egypt, Eritrea, Spain, Ethiopia, Finland, Fiji, Micronesia, France, Gabon, United Kingdom, Grenada, Georgia, Ghana, Gambia, Guinea, Equatorial Guinea, Greece, Guatemala, Guinea-Bissau, Guyana, Honduras, Croatia, Haiti, Hungary, Indonesia, Ireland, Israel, India, Iraq, Iceland, Italy, Jamaica, Jordan, Japan, Kenya, Kyrgyzstan, Cambodia, Kiribati, Comoros, St. Kitts & Nevis, South Korea, Kuwait, Kazakhstan, Laos, Lebanon, St. Lucia, Liechtenstein, Sri Lanka, Liberia, Lesotho, Lithuania, Luxembourg, Latvia, Libya, Morocco, Monaco, Moldova, Montenegro, Madagascar, Marshall Islands, North Macedonia, Mali, Myanmar (Burma), Mongolia, Mauritania, Malta, Mauritius, Maldives, Malawi, Mexico, Malaysia, Mozambique, Namibia, Niger, Nigeria, Nicaragua, Netherlands, Norway, Nepal, Nauru, New Zealand, Oman, Panama, Peru, Papua New Guinea, Philippines, Pakistan, Poland, Palestine, Portugal, Palau, Paraguay, Qatar, Romania, Serbia, Rwanda, Saudi Arabia, Solomon Islands, Seychelles, Sudan, Sweden, Singapore, Slovenia, Slovakia, Sierra Leone, San Marino, Senegal, Somalia, Suriname, South Sudan, SÃ£o TomÃ© & PrÃ­ncipe, El Salvador, Eswatini, Chad, Togo, Thailand, Tajikistan, Timor-Leste, Turkmenistan, Tunisia, Tonga, TÃ¼rkiye, Trinidad & Tobago, Tuvalu, Tanzania, Ukraine, Uganda, United States, Uruguay, Uzbekistan, Vatican City, St. Vincent & Grenadines, Venezuela, Vietnam, Vanuatu, Samoa, Yemen, South Africa, Zambia, Zimbabwe)",
+  "salary": "",
+  "posted": "2026-11-13T00:00:00+00:00",
+  "sent": "2026-11-13T18:59:10.464661+00:00",
+  "update": "",
+  "variant": "cloud",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-13/Aaron_Echosit_Mozilla_Software_Engineering_Manager_Cloud_Engineering.pdf"
  }
 }
