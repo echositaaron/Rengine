@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-15T08:39:25.508562+00:00",
+  "last_run": "2026-11-15T16:43:12.041834+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -414,7 +414,8 @@
    "https://jobspresso.co/job/senior-client-platform-engineer-endpoint-platform-and-automation/",
    "https://dailyremote.com/remote-job/devops-engineer-5915173",
    "https://dailyremote.com/remote-job/dev-ops-engineer-5915275",
-   "https://trulyremotework.com/jobs/senior-data-platform-engineer-analytics-ai-distantjob"
+   "https://trulyremotework.com/jobs/senior-data-platform-engineer-analytics-ai-distantjob",
+   "https://dailyremote.com/remote-job/dev-ops-5916373"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -2048,5 +2049,21 @@
   "update": "",
   "variant": "cloud",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-15/Aaron_Echosit_Init_Norway_Senior_Cloud_AI_First_Engineer.pdf"
+ },
+ "phantom|staffsoftwareengineersre": {
+  "title": "Staff Software Engineer (SRE)",
+  "company": "Phantom",
+  "url": "https://trulyremotework.com/jobs/staff-software-engineer-sre-phantom-ashby-b853c28e-15a7-4dac-be01-b0fbc00cd006",
+  "source": "Truly Remote Work",
+  "score": 64,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "No location stated on the listing",
+  "salary": "",
+  "posted": "2026-11-15T15:00:00+00:00",
+  "sent": "2026-11-15T16:43:12.041834+00:00",
+  "update": "",
+  "variant": "devops",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-15/Aaron_Echosit_Phantom_Staff_Software_Engineer_SRE.pdf"
  }
 }
