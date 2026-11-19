@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-19T05:12:40.297774+00:00",
+  "last_run": "2026-11-19T14:57:18.195546+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -511,7 +511,16 @@
    "https://dailyremote.com/remote-job/cloud-devops-engineer-5934763",
    "https://dailyremote.com/remote-job/dev-ops-engineer-5933653",
    "https://dailyremote.com/remote-job/lead-dev-ops-engineer-5933495",
-   "https://remotejobsglobal.com/job/1197-cloud-migration-and-devsecops-at-gofasti-62657990"
+   "https://remotejobsglobal.com/job/1197-cloud-migration-and-devsecops-at-gofasti-62657990",
+   "https://remotejobsglobal.com/job/storage-platform-engineer-at-supabase-463d8cd7",
+   "https://dailyremote.com/remote-job/dev-ops-database-engineer-dba-5936684",
+   "https://www.remotedxb.com/job/senior-infrastructure-engineer-nas-neuron-health-services-llc--3660517?scope=uae",
+   "https://dailyremote.com/remote-job/sr-dev-ops-engineer-5935596",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-security-and-compliance-5936169",
+   "https://dailyremote.com/remote-job/senior-devops-engineer-5936153",
+   "https://remotejobsglobal.com/job/senior-devops-engineer-ii-europe-brazil-at-storyblok-50365641",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-service-agreement-5936366",
+   "https://workfromanywhere.app/jobs/data-platform-engineer-at-clickhouse"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -2385,5 +2394,85 @@
   "update": "",
   "variant": "sre",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-19/Aaron_Echosit_Wikimedia_Senior_Site_Reliability_Engineer.pdf"
+ },
+ "supabase|storageplatformengineer": {
+  "title": "Storage Platform Engineer",
+  "company": "Supabase",
+  "url": "https://jobs.ashbyhq.com/supabase/463d8cd7-3092-44eb-b80e-8d21008e569e",
+  "source": "Ashby",
+  "score": 90,
+  "priority": "Apply now",
+  "status": "ok",
+  "elig": "Worldwide (Remote, Global)",
+  "salary": "",
+  "posted": "2026-11-19T12:56:25.990000+00:00",
+  "sent": "2026-11-19T14:57:18.195546+00:00",
+  "update": "",
+  "variant": "platform",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-19/Aaron_Echosit_Supabase_Storage_Platform_Engineer.pdf"
+ },
+ "upgrade|principaldevsecopsdeveloper": {
+  "title": "Principal DevSecOps Developer",
+  "company": "Upgrade",
+  "url": "https://weworkremotely.com/remote-jobs/upgrade-principal-devsecops-developer",
+  "source": "WeWorkRemotely",
+  "score": 90,
+  "priority": "Apply now",
+  "status": "ok",
+  "elig": "Worldwide (Anywhere in the World)",
+  "salary": "$170k-$240k",
+  "posted": "2026-11-19T06:01:30+00:00",
+  "sent": "2026-11-19T14:57:18.195546+00:00",
+  "update": "",
+  "variant": "devops",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-19/Aaron_Echosit_Upgrade_Principal_DevSecOps_Developer.pdf"
+ },
+ "|seniorinfrastructureengineer": {
+  "title": "Senior Infrastructure Engineer",
+  "company": "",
+  "url": "https://www.remotedxb.com/job/senior-infrastructure-engineer-nas-neuron-health-services-llc--3660517",
+  "source": "RemoteDXB",
+  "score": 80,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "No location stated on the listing",
+  "salary": "",
+  "posted": "2026-11-19T08:00:09+00:00",
+  "sent": "2026-11-19T14:57:18.195546+00:00",
+  "update": "",
+  "variant": "cloud",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-19/Aaron_Echosit_Senior_Infrastructure_Engineer.pdf"
+ },
+ "optimalgrowthtechnologies|seniorcloudinfrastructureengineer": {
+  "title": "Senior Cloud Infrastructure Engineer",
+  "company": "Optimal Growth Technologies",
+  "url": "https://himalayas.app/companies/optimal-growth-technologies/jobs/senior-cloud-infrastructure-engineer?utm_source=api",
+  "source": "Himalayas",
+  "score": 69,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "Listed for a specific African country (South Africa); Kenya not named",
+  "salary": "",
+  "posted": "2026-11-19T13:05:14+00:00",
+  "sent": "2026-11-19T14:57:18.195546+00:00",
+  "update": "",
+  "variant": "cloud",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-19/Aaron_Echosit_Optimal_Growth_Technologies_Senior_Cloud_Infrastructure_Engineer.pdf"
+ },
+ "nasneuronhealthservicesllc|seniorinfrastructureengineer": {
+  "title": "Senior Infrastructure Engineer",
+  "company": "NAS Neuron Health Services LLC",
+  "url": "https://www.remotedxb.com/job/senior-infrastructure-engineer-nas-neuron-health-services-llc--3660517?scope=uae",
+  "source": "RemoteDXB",
+  "score": 80,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "Unclear location: AE",
+  "salary": "",
+  "posted": "2026-11-19T00:00:00+00:00",
+  "sent": "2026-11-19T14:57:18.195546+00:00",
+  "update": "",
+  "variant": "cloud",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-19/Aaron_Echosit_NAS_Neuron_Health_Services_LLC_Senior_Infrastructure_Engineer.pdf"
  }
 }
