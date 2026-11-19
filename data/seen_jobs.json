@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-19T14:57:18.195546+00:00",
+  "last_run": "2026-11-19T22:50:14.214928+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -520,7 +520,16 @@
    "https://dailyremote.com/remote-job/senior-devops-engineer-5936153",
    "https://remotejobsglobal.com/job/senior-devops-engineer-ii-europe-brazil-at-storyblok-50365641",
    "https://dailyremote.com/remote-job/dev-ops-engineer-service-agreement-5936366",
-   "https://workfromanywhere.app/jobs/data-platform-engineer-at-clickhouse"
+   "https://workfromanywhere.app/jobs/data-platform-engineer-at-clickhouse",
+   "https://dailyremote.com/remote-job/cloud-engineer-dev-ops-5938185",
+   "https://trulyremotework.com/jobs/1197-cloud-migration-and-devsecops-gofasti",
+   "https://jobspresso.co/job/technical-program-manager-infrastructure-delivery/",
+   "https://jobspresso.co/job/senior-infrastructure-software-engineer/",
+   "https://dailyremote.com/remote-job/dev-ops-full-stack-engineer-5939906",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-cloud-hpc-noaa-badge-required-5937512",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-azure-elastic-stack-5937965",
+   "https://dailyremote.com/remote-job/azure-dev-ops-engineer-with-dba-experience-5938585",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-cloud-hpc-noaa-badge-preferred-5937511"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -2474,5 +2483,53 @@
   "update": "",
   "variant": "cloud",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-19/Aaron_Echosit_NAS_Neuron_Health_Services_LLC_Senior_Infrastructure_Engineer.pdf"
+ },
+ "prove|sitereliabilityengineersrsitereliabilityengineer": {
+  "title": "Site Reliability Engineer, Sr. Site Reliability Engineer",
+  "company": "Prove",
+  "url": "https://weworkremotely.com/remote-jobs/prove-site-reliability-engineer-sr-site-reliability-engineer",
+  "source": "WeWorkRemotely",
+  "score": 99,
+  "priority": "Apply now",
+  "status": "ok",
+  "elig": "Worldwide (Anywhere in the World)",
+  "salary": "$130,000 - 150,000",
+  "posted": "2026-11-19T18:31:23+00:00",
+  "sent": "2026-11-19T22:50:14.214928+00:00",
+  "update": "",
+  "variant": "sre",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-20/Aaron_Echosit_Prove_Site_Reliability_Engineer_Sr_Site_Reliability_Engineer.pdf"
+ },
+ "|storageplatformengineer": {
+  "title": "Storage Platform Engineer",
+  "company": "",
+  "url": "https://www.remotedxb.com/job/storage-platform-engineer-supabase--3667716",
+  "source": "RemoteDXB",
+  "score": 71,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "No location stated on the listing",
+  "salary": "",
+  "posted": "2026-11-19T16:00:12+00:00",
+  "sent": "2026-11-19T22:50:14.214928+00:00",
+  "update": "",
+  "variant": "platform",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-20/Aaron_Echosit_Storage_Platform_Engineer.pdf"
+ },
+ "gofasti|1197cloudmigrationanddevsecops": {
+  "title": "1197 - Cloud Migration and DevSecOps",
+  "company": "GoFasti",
+  "url": "https://trulyremotework.com/jobs/1197-cloud-migration-and-devsecops-gofasti",
+  "source": "Truly Remote Work",
+  "score": 97,
+  "priority": "Apply now",
+  "status": "ok",
+  "elig": "Open to Kenya/Africa (Remote - Andorra, United Arab Emirates, Afghanistan, Antigua & Barbuda, Albania, Armenia, Angola, Argentina, Austria, Australia, Azerbaijan, Bosnia & Herzegovina, Barbados, Bangladesh, Belgium, Burkina Faso, Bulgaria, Bahrain, Burundi, Benin, Brunei, Bolivia, Brazil, Bahamas, Bhutan, Botswana, Belize, Canada, Congo - Kinshasa, Central African Republic, Congo - Brazzaville, Switzerland, CÃ´te dâIvoire, Chile, Cameroon, China, Colombia, Costa Rica, Cape Verde, Cyprus, Czechia, Germany, Djibouti, Denmark, Dominica, Dominican Republic, Algeria, Ecuador, Estonia, Egypt, Eritrea, Spain, Ethiopia, Finland, Fiji, Micronesia, France, Gabon, United Kingdom, Grenada, Georgia, Ghana, Gambia, Guinea, Equatorial Guinea, Greece, Guatemala, Guinea-Bissau, Guyana, Honduras, Croatia, Haiti, Hungary, Indonesia, Ireland, Israel, India, Iraq, Iceland, Italy, Jamaica, Jordan, Japan, Kenya, Kyrgyzstan, Cambodia, Kiribati, Comoros, St. Kitts & Nevis, South Korea, Kuwait, Kazakhstan, Laos, Lebanon, St. Lucia, Liechtenstein, Sri Lanka, Liberia, Lesotho, Lithuania, Luxembourg, Latvia, Libya, Morocco, Monaco, Moldova, Montenegro, Madagascar, Marshall Islands, North Macedonia, Mali, Myanmar (Burma), Mongolia, Mauritania, Malta, Mauritius, Maldives, Malawi, Mexico, Malaysia, Mozambique, Namibia, Niger, Nigeria, Nicaragua, Netherlands, Norway, Nepal, Nauru, New Zealand, Oman, Panama, Peru, Papua New Guinea, Philippines, Pakistan, Poland, Palestine, Portugal, Palau, Paraguay, Qatar, Romania, Serbia, Rwanda, Saudi Arabia, Solomon Islands, Seychelles, Sudan, Sweden, Singapore, Slovenia, Slovakia, Sierra Leone, San Marino, Senegal, Somalia, Suriname, South Sudan, SÃ£o TomÃ© & PrÃ­ncipe, El Salvador, Eswatini, Chad, Togo, Thailand, Tajikistan, Timor-Leste, Turkmenistan, Tunisia, Tonga, TÃ¼rkiye, Trinidad & Tobago, Tuvalu, Tanzania, Ukraine, Uganda, United States, Uruguay, Uzbekistan, Vatican City, St. Vincent & Grenadines, Venezuela, Vietnam, Vanuatu, Samoa, Yemen, South Africa, Zambia, Zimbabwe)",
+  "salary": "",
+  "posted": "2026-11-19T00:00:00+00:00",
+  "sent": "2026-11-19T22:50:14.214928+00:00",
+  "update": "",
+  "variant": "cloud",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-20/Aaron_Echosit_GoFasti_1197_Cloud_Migration_and_DevSecOps.pdf"
  }
 }
