@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-20T22:27:09.979541+00:00",
+  "last_run": "2026-11-21T04:55:36.539083+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -564,7 +564,8 @@
    "https://remotejobsglobal.com/job/cloud-database-administrator-at-trexsolutions-89573710",
    "https://remotejobsglobal.com/job/azure-cloud-network-engineer-at-trexsolutions-89573560",
    "https://trulyremotework.com/jobs/senior-devops-engineer-ii-storyblok",
-   "https://dailyremote.com/remote-job/intermediate-software-developer-dev-ops-5943822"
+   "https://dailyremote.com/remote-job/intermediate-software-developer-dev-ops-5943822",
+   "https://workfromanywhere.app/jobs/senior-software-engineer-cloud-partner-integrations-at-clickhouse"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -2646,5 +2647,21 @@
   "update": "",
   "variant": "devops",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-21/Aaron_Echosit_Storyblok_Senior_DevOps_Engineer_II.pdf"
+ },
+ "cloudflare|distributedsystemsengineernetworkservices": {
+  "title": "Distributed Systems Engineer - Network Services",
+  "company": "Cloudflare",
+  "url": "https://boards.greenhouse.io/cloudflare/jobs/8401112?gh_jid=8401112",
+  "source": "Greenhouse",
+  "score": 73,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "Unclear location: Hybrid",
+  "salary": "$168,000 - $210,000",
+  "posted": "2026-11-20T20:53:19-05:00",
+  "sent": "2026-11-21T04:55:36.539083+00:00",
+  "update": "",
+  "variant": "infrastructure",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-21/Aaron_Echosit_Cloudflare_Distributed_Systems_Engineer_Network_Services.pdf"
  }
 }
