@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-22T09:06:54.231919+00:00",
+  "last_run": "2026-11-22T17:31:19.006827+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -575,7 +575,11 @@
    "https://workfromanywhere.app/jobs/software-engineer-production-engineering-finops-at-ramp",
    "https://jobspresso.co/job/senior-cloud-infrastructure-engineer/",
    "https://workfromanywhere.app/jobs/seniorstaff-software-engineer-developer-experience-at-cohere",
-   "https://workfromanywhere.app/jobs/cloud-data-infrastructure-engineer-at-clickhouse"
+   "https://workfromanywhere.app/jobs/cloud-data-infrastructure-engineer-at-clickhouse",
+   "https://jobspresso.co/job/ai-platform-engineer-serverless-training-and-inference/",
+   "https://jobspresso.co/job/software-engineer-5-ai-observability/",
+   "https://jobspresso.co/job/cloud-engineer/",
+   "https://jobspresso.co/job/principal-engineer-full-stack-typescript-node-js-react-cloud/"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
