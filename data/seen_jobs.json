@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-26T03:52:00.167216+00:00",
+  "last_run": "2026-11-26T13:23:26.314905+00:00",
   "site_urls": [
    "https://workfromanywhere.app/jobs/it-infrastructure-lead-at-iceye",
    "https://workfromanywhere.app/jobs/senior-cloud-engineer-product-metrics-remote-at-clickhouse",
@@ -657,7 +657,18 @@
    "https://dailyremote.com/remote-job/aws-dev-ops-engineer-5966941",
    "https://dailyremote.com/remote-job/dev-ops-engineer-remote-5966359",
    "https://dailyremote.com/remote-job/cloud-dev-ops-engineer-5965657",
-   "https://dailyremote.com/remote-job/dev-ops-engineer-configuration-release-management-5966607"
+   "https://dailyremote.com/remote-job/dev-ops-engineer-configuration-release-management-5966607",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-5967742",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-5967378",
+   "https://dailyremote.com/remote-job/cloud-monitoring-dev-ops-m-z-5967503",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-w-m-remote-🇪🇺-5967674",
+   "https://dailyremote.com/remote-job/dev-ops-engineer-5967337",
+   "https://workfromanywhere.app/jobs/senior-platform-engineer-infrastructure-platform-at-iceye",
+   "https://nodesk.co/remote-jobs/abnormal-enterprise-platform-engineer-emea/",
+   "https://remotejobsglobal.com/job/devops-engineer-dst-at-logos-8259659",
+   "https://dailyremote.com/remote-job/staff-dev-ops-engineer-ai-security-5967634",
+   "https://dailyremote.com/remote-job/icam-dev-ops-engineer-aks-git-lab-automation-services-5967277",
+   "https://dailyremote.com/remote-job/senior-dev-ops-engineer-5967746"
   ]
  },
  "lambda|seniordirectornetworkreliabilityengineering": {
@@ -3075,5 +3086,37 @@
   "update": "",
   "variant": "infrastructure",
   "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-25/Aaron_Echosit_Senior_DevOps_Engineer_Autheo_Mesh_Network.pdf"
+ },
+ "supabase|platformengineerdatabase": {
+  "title": "Platform Engineer - Database",
+  "company": "Supabase",
+  "url": "https://jobs.ashbyhq.com/supabase/e1880633-5d58-4f38-833e-1bdef24d0bf9",
+  "source": "Ashby",
+  "score": 70,
+  "priority": "Verify eligibility first",
+  "status": "verify",
+  "elig": "EMEA - Kenya not explicitly named (Remote, EMEA)",
+  "salary": "",
+  "posted": "2026-11-26T11:36:59.919000+00:00",
+  "sent": "2026-11-26T13:23:26.314905+00:00",
+  "update": "",
+  "variant": "platform",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-26/Aaron_Echosit_Supabase_Platform_Engineer_Database.pdf"
+ },
+ "abnormal|enterpriseplatformengineeremea": {
+  "title": "Enterprise Platform Engineer, EMEA",
+  "company": "Abnormal",
+  "url": "https://nodesk.co/remote-jobs/abnormal-enterprise-platform-engineer-emea/",
+  "source": "NoDesk",
+  "score": 95,
+  "priority": "Apply now",
+  "status": "ok",
+  "elig": "Worldwide (Remote - Anywhere)",
+  "salary": "",
+  "posted": "2026-11-25T00:00:00+00:00",
+  "sent": "2026-11-26T13:23:26.314905+00:00",
+  "update": "",
+  "variant": "devops",
+  "resume": "/home/runner/work/Rengine/Rengine/data/resumes/2026-11-26/Aaron_Echosit_Abnormal_Enterprise_Platform_Engineer_EMEA.pdf"
  }
 }
